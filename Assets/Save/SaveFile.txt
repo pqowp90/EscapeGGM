@@ -1,0 +1,31 @@
+﻿{
+    "userName": "",
+    "energy": 812,
+    "ePC": 1,
+    "solderList": [
+        {
+            "solderName": "한민영병사",
+            "amount": 0,
+            "ePc": 1,
+            "price": 150
+        },
+        {
+            "solderName": "어시온주술사",
+            "amount": 0,
+            "ePc": 5,
+            "price": 1200
+        },
+        {
+            "solderName": "김희수무투가",
+            "amount": 0,
+            "ePc": 50,
+            "price": 17000
+        },
+        {
+            "solderName": "김채연마녀",
+            "amount": 0,
+            "ePc": 333,
+            "price": 99999
+        }
+    ]
+}
