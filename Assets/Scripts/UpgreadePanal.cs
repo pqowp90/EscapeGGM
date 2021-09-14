@@ -16,10 +16,23 @@ public class UpgreadePanel : MonoBehaviour
     private Button purchaseButton=null;
     private Soldier soldier = null;
     public void SetValue(Soldier soldier){
+
+        this.soldier = soldier;
+        UpdateUI();
+    }
+    public void UpdateUI(){
         soldierNameText.text = soldier.solderName;
         priceText.text = string.Format("{0} 애너지",soldier.price);
         amountText.text = string.Format("{0}",soldier.amount);
-        this.soldier = soldier;
-
+    }
+    public void OnclickPurchase(){
+        if(GameManager.Instance.CurrentUser.energy < soldier.price){
+            return;
+        }
+        GameManager.Instance.CurrentUser.energy -= soldier.price;
+        soldier.price = (long)(soldier.price*1.25f);
+        soldier.amount++;
+        GameManager.Instance.UI.UpdateEnergyPanel();
+        UpdateUI();
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour  
 {
     private static bool shuttingdown=false;
