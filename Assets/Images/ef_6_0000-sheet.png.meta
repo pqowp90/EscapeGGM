@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 6b24a48756c30f5498c40c615124ee5a
+guid: a7c6ae768832880468e46fb63181bc18
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3012758080872590764
-    second: Frame
+      213: -7701918866985520577
+    second: ef_6_0000-sheet_0
   - first:
-      213: -7897826582631791948
-    second: Button
+      213: 8948484904563957705
+    second: ef_6_0000-sheet_1
+  - first:
+      213: 1116955865457826986
+    second: ef_6_0000-sheet_2
+  - first:
+      213: 4434305442814011630
+    second: ef_6_0000-sheet_3
+  - first:
+      213: -60182883277537944
+    second: ef_6_0000-sheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -38,7 +47,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,8 +61,8 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
-  spriteBorder: {x: 12, y: 12, z: 12, w: 12}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -71,10 +80,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -83,10 +92,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,10 +104,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,43 +118,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Frame
+      name: ef_6_0000-sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 12, y: 12, z: 12, w: 12}
+        y: 0
+        width: 1140
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cad299423877fc920800000000000000
-      internalID: 3012758080872590764
+      spriteID: f32f274d8994d1590800000000000000
+      internalID: -7701918866985520577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button
+      name: ef_6_0000-sheet_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 10, y: 10, z: 10, w: 10}
+        x: 1140
+        y: 0
+        width: 1140
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b2489c4198456290800000000000000
-      internalID: -7897826582631791948
+      spriteID: 9cfda7e0c976f2c70800000000000000
+      internalID: 8948484904563957705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_6_0000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 0
+        width: 1140
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac17661179308f00800000000000000
+      internalID: 1116955865457826986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_6_0000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 0
+        width: 1140
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8a2886e41d98d30800000000000000
+      internalID: 4434305442814011630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_6_0000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 0
+        width: 1140
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dfeac8cff2a2ff0800000000000000
+      internalID: -60182883277537944
       vertices: []
       indices: 
       edges: []

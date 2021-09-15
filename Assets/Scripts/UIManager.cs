@@ -9,6 +9,8 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Animator beakerAnimator = null;
     [SerializeField]
+    private Transform finger;
+    [SerializeField]
     private GameObject upgreadPanelTemplate=null;
     private List<UpgreadePanel> upgreadePanals = new List<UpgreadePanel>();
     void Start()
@@ -30,6 +32,11 @@ public class UIManager : MonoBehaviour
         GameManager.Instance.CurrentUser.energy += GameManager.Instance.CurrentUser.ePC;
         UpdateEnergyPanel();
         beakerAnimator.SetTrigger("Click");
+        Invoke("Bbok",0.1f);
+        
+    }
+    private void Bbok(){
+        AllPoolManager.Instance.GetObjPos(0,finger.position).gameObject.SetActive(true);
     }
     public void UpdateEnergyPanel(){
         energyText.text = string.Format("{0} 애너지",GameManager.Instance.CurrentUser.energy);
