@@ -12,6 +12,10 @@ public class GameManager : MonoSingleton<GameManager>
     public User CurrentUser {get{return user;}}
     private UIManager uiManager = null;
     public UIManager UI {get{return uiManager;}}
+    public bool isRun=false;
+    public float backgroundSpeed;
+    [SerializeField]
+    private Animator playerAnimator;
     private void Awake()
     {
         
@@ -23,6 +27,10 @@ public class GameManager : MonoSingleton<GameManager>
         InvokeRepeating("EarnEnergyPerSecond",0f,0.1f);
         LoadFromJsom();
         uiManager = GetComponent<UIManager>();
+    }
+    public void Move(bool isMove){
+        isRun = isMove;
+        playerAnimator.SetBool("stop",!isMove);
     }
     private void EarnEnergyPerSecond(){
         

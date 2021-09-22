@@ -1,35 +1,35 @@
 ﻿{
     "userName": "",
-    "energy": 686985981,
+    "energy": 69302626,
     "ePC": 10,
     "solderList": [
         {
             "soldierNumber": 0,
             "solderName": "스네이크권 계승자 민준",
-            "upgrade": 41,
+            "upgrade": 48,
             "ePs": 1,
-            "price": 150626
+            "price": 718235
         },
         {
             "soldierNumber": 1,
             "solderName": "졸렬한 마법사 어시온",
-            "upgrade": 35,
+            "upgrade": 45,
             "ePs": 5,
-            "price": 243308
+            "price": 2265971
         },
         {
             "soldierNumber": 2,
             "solderName": "분노의 화신 수안",
-            "upgrade": 36,
+            "upgrade": 41,
             "ePs": 40,
-            "price": 1538312
+            "price": 4694553
         },
         {
             "soldierNumber": 3,
             "solderName": "독재자 태영",
-            "upgrade": 16,
+            "upgrade": 49,
             "ePs": 100,
-            "price": 106533
+            "price": 168076900
         }
     ]
 }
