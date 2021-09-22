@@ -1,31 +1,35 @@
 ﻿{
     "userName": "",
-    "energy": 6957684,
-    "ePC": 1,
+    "energy": 686985981,
+    "ePC": 10,
     "solderList": [
         {
-            "solderName": "한민영병신",
-            "amount": 59,
-            "ePc": 1,
-            "price": 77157805
+            "soldierNumber": 0,
+            "solderName": "스네이크권 계승자 민준",
+            "upgrade": 41,
+            "ePs": 1,
+            "price": 150626
         },
         {
-            "solderName": "어시온주술사",
-            "amount": 44,
-            "ePc": 5,
-            "price": 22017580
+            "soldierNumber": 1,
+            "solderName": "졸렬한 마법사 어시온",
+            "upgrade": 35,
+            "ePs": 5,
+            "price": 243308
         },
         {
-            "solderName": "김희수무투가",
-            "amount": 26,
-            "ePc": 50,
-            "price": 5624335
+            "soldierNumber": 2,
+            "solderName": "분노의 화신 수안",
+            "upgrade": 36,
+            "ePs": 40,
+            "price": 1538312
         },
         {
-            "solderName": "김채연마녀",
-            "amount": 16,
-            "ePc": 333,
-            "price": 3552612
+            "soldierNumber": 3,
+            "solderName": "독재자 태영",
+            "upgrade": 16,
+            "ePs": 100,
+            "price": 106533
         }
     ]
 }

@@ -1,8 +1,9 @@
 [System.Serializable]
 public class Soldier
 {
+    public int soldierNumber;
     public string solderName;
-    public int amount;
-    public long ePc;
+    public int upgrade;
+    public long ePs;
     public long price;
 }

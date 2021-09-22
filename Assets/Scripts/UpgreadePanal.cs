@@ -15,6 +15,10 @@ public class UpgreadePanel : MonoBehaviour
     [SerializeField]
     private Button purchaseButton=null;
     private Soldier soldier = null;
+    [SerializeField]
+    private Image soldierImage = null;
+    [SerializeField]
+    private Sprite[] soldierSpeite;
     public void SetValue(Soldier soldier){
 
         this.soldier = soldier;
@@ -22,8 +26,9 @@ public class UpgreadePanel : MonoBehaviour
     }
     public void UpdateUI(){
         soldierNameText.text = soldier.solderName;
-        priceText.text = string.Format("{0} 애너지",soldier.price);
-        amountText.text = string.Format("{0}",soldier.amount);
+        priceText.text = string.Format("{0} 원",soldier.price);
+        amountText.text = string.Format("LV.{0}",soldier.upgrade);
+        soldierImage.sprite = soldierSpeite[soldier.soldierNumber];
     }
     public void OnclickPurchase(){
         if(GameManager.Instance.CurrentUser.energy < soldier.price){
@@ -31,7 +36,7 @@ public class UpgreadePanel : MonoBehaviour
         }
         GameManager.Instance.CurrentUser.energy -= soldier.price;
         soldier.price = (long)(soldier.price*1.25f);
-        soldier.amount++;
+        soldier.upgrade++;
         GameManager.Instance.UI.UpdateEnergyPanel();
         UpdateUI();
     }

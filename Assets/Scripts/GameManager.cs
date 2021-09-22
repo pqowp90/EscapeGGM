@@ -25,9 +25,11 @@ public class GameManager : MonoSingleton<GameManager>
         uiManager = GetComponent<UIManager>();
     }
     private void EarnEnergyPerSecond(){
+        
         foreach(Soldier soldier in user.solderList){
-            user.energy += soldier.ePc * soldier.amount;
+            user.energy += soldier.ePs * soldier.upgrade;
         }
+        //Debug.Log(user.energy);
         UI.UpdateEnergyPanel();
     }
     private void LoadFromJsom(){
