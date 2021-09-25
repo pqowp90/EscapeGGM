@@ -25,6 +25,7 @@ public class EnergyText : MonoBehaviour
         energyText.DOFade(0f,0.5f).OnComplete(()=>Despawn());
         rectTransform.DOAnchorPosY(targetPosY,0.5f);
         
+        
         //transform.SetParent(canvas.transform);
     }
     public void Despawn(){

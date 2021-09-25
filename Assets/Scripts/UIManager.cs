@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using CAH.GameSystem.BigNumber;
 public class UIManager : MonoBehaviour
 {
     [SerializeField]
@@ -17,6 +18,8 @@ public class UIManager : MonoBehaviour
     private EnergyText energyTextTemplate=null;
     [SerializeField]
     private Transform pool = null;
+    [SerializeField]
+    private GameObject[] uis;
     void Start()
     {
         UpdateEnergyPanel();
@@ -33,7 +36,7 @@ public class UIManager : MonoBehaviour
         }
     }
     public void OnClickBeaker(){
-        GameManager.Instance.CurrentUser.energy += GameManager.Instance.CurrentUser.ePC;
+        GameManager.Instance.money +=  GameManager.Instance.ePC;
         UpdateEnergyPanel();
         beakerAnimator.SetTrigger("atk");
         //Invoke("Bbok",0.1f);
@@ -52,7 +55,11 @@ public class UIManager : MonoBehaviour
 
     }
     public void UpdateEnergyPanel(){
-        energyText.text = string.Format("{0} 원",MoneyUnitString.ToString(GameManager.Instance.CurrentUser.energy));
+        energyText.text = string.Format("{0}",BigIntegerManager.GetUnit(GameManager.Instance.money));
     }
-
+    public void Uiswitch(int num){
+        for(int i=0;i<uis.Length;i++){
+            uis[i].SetActive(i==num);
+        }
+    }
 }

@@ -1,5 +1,5 @@
 using System.Text; // StringBuilder 쓰기 위함
-using UnityEngine;
+
 public class MoneyUnitString
 {
     static string[] unitSymbol = new string[] { "", "만", "억", "조", "경", "해" };

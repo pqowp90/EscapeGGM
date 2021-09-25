@@ -2,6 +2,10 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Numerics;
+
+using CAH.GameSystem.BigNumber;
+    
 
 public class GameManager : MonoSingleton<GameManager>
 {
@@ -16,15 +20,16 @@ public class GameManager : MonoSingleton<GameManager>
     public float backgroundSpeed;
     [SerializeField]
     private Animator playerAnimator;
+    public BigInteger money,ePC;
     private void Awake()
     {
-        
+        //Debug.Log(BigInteger.Pow(1000, 3).ToString());
         SAVE_PATH = Application.dataPath+"/Save";//persistentDataPath
         if(!Directory.Exists(SAVE_PATH)){
             Directory.CreateDirectory(SAVE_PATH);
         }
         InvokeRepeating("SaveToJson",1f,5f);
-        InvokeRepeating("EarnEnergyPerSecond",0f,0.1f);
+        InvokeRepeating("EarnEnergyPerSecond",0f,1f);
         LoadFromJsom();
         uiManager = GetComponent<UIManager>();
     }
@@ -32,12 +37,13 @@ public class GameManager : MonoSingleton<GameManager>
         isRun = isMove;
         playerAnimator.SetBool("stop",!isMove);
     }
+
+
     private void EarnEnergyPerSecond(){
         
         foreach(Soldier soldier in user.solderList){
-            user.energy += soldier.ePs * soldier.upgrade;
+            money += BigInteger.Parse(soldier.ePs) * (BigInteger)soldier.upgrade;
         }
-        //Debug.Log(user.energy);
         UI.UpdateEnergyPanel();
     }
     private void LoadFromJsom(){
@@ -47,12 +53,20 @@ public class GameManager : MonoSingleton<GameManager>
             user = JsonUtility.FromJson<User>(json);
             
         }
+        ePC=BigInteger.Parse(user.ePC);
+        money=BigInteger.Parse(user.money);
     }
     private void SaveToJson(){
+        user.money = money.ToString();
+        user.ePC = ePC.ToString();
         string json = JsonUtility.ToJson(user, true);
         File.WriteAllText(SAVE_PATH+SAVE_FILENAME,json, System.Text.Encoding.UTF8);
     }
     private void OnApplicationQuit(){
         SaveToJson();
     }
+    
+
+
+    
 }
