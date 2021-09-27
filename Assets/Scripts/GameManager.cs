@@ -21,8 +21,10 @@ public class GameManager : MonoSingleton<GameManager>
     [SerializeField]
     private Animator playerAnimator;
     public BigInteger money,ePC;
+    public SaveImage saveImage;
     private void Awake()
     {
+        saveImage = GetComponent<SaveImage>();
         //Debug.Log(BigInteger.Pow(1000, 3).ToString());
         SAVE_PATH = Application.dataPath+"/Save";//persistentDataPath
         if(!Directory.Exists(SAVE_PATH)){
@@ -30,8 +32,10 @@ public class GameManager : MonoSingleton<GameManager>
         }
         InvokeRepeating("SaveToJson",1f,5f);
         InvokeRepeating("EarnEnergyPerSecond",0f,1f);
+        //SaveToJson();
         LoadFromJsom();
         uiManager = GetComponent<UIManager>();
+        
     }
     public void Move(bool isMove){
         isRun = isMove;

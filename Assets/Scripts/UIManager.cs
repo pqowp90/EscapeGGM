@@ -13,6 +13,8 @@ public class UIManager : MonoBehaviour
     private Transform finger;
     [SerializeField]
     private GameObject upgreadPanelTemplate=null;
+    [SerializeField]
+    private GameObject upgreadPanelTemplate2=null;
     private List<UpgreadePanel> upgreadePanals = new List<UpgreadePanel>();
     [SerializeField]
     private EnergyText energyTextTemplate=null;
@@ -26,13 +28,28 @@ public class UIManager : MonoBehaviour
         CreatPanels();
     }
     private void CreatPanels(){
+        int i=0;
         GameObject newPanel = null;
         UpgreadePanel newPanelComponent = null;
         foreach(Soldier soldier in GameManager.Instance.CurrentUser.solderList){
             newPanel = Instantiate(upgreadPanelTemplate,upgreadPanelTemplate.transform.parent);
             newPanelComponent = newPanel.GetComponent<UpgreadePanel>();
+            soldier.soldierNumber = i;
+            soldier.upgrade = 0;
             newPanelComponent.SetValue(soldier);
             newPanel.SetActive(true);
+            i++;
+        }
+        i=0;
+        WeaponPanel newPanelComponent2 = null;
+        foreach(Weapon weapon in GameManager.Instance.CurrentUser.Weapon){
+            newPanel = Instantiate(upgreadPanelTemplate2,upgreadPanelTemplate2.transform.parent);
+            newPanelComponent2 = newPanel.GetComponent<WeaponPanel>();
+            weapon.weaponNumber = i;
+            weapon.upgrade = 0;
+            newPanelComponent2.SetValue(weapon);
+            newPanel.SetActive(true);
+            i++;
         }
     }
     public void OnClickBeaker(){

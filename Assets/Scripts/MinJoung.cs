@@ -10,14 +10,14 @@ public class MinJoung : MonoBehaviour
     private RectTransform myRectTransform;
     void Start()
     {
+        Debug.Log(Screen.height/2f);
         myRectTransform = GetComponent<RectTransform>();
+        float screenHeight = transform.parent.GetComponent<RectTransform>().rect.height/2f;
+        myRectTransform.sizeDelta = new Vector2(0f,screenHeight);
+        myRectTransform.localPosition = new Vector3(0f,-(screenHeight),0f);
+        
         buttonHeight = button.rect.height;
         myRectTransform.sizeDelta = new Vector2(0f,myRectTransform.rect.height - buttonHeight);
         myRectTransform.localPosition += new Vector3(0f,buttonHeight,0f);
-    }
-
-    void Update()
-    {
-        
     }
 }

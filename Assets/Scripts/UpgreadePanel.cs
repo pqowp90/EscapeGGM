@@ -23,6 +23,8 @@ public class UpgreadePanel : MonoBehaviour
     [SerializeField]
     private Image blackImage = null;
     [SerializeField]
+    private Text questionMark = null;
+    [SerializeField]
     private Sprite[] soldierSpeite;
     private void Awake(){
         InvokeRepeating("CanUpgrade",0f,1f);
@@ -34,6 +36,7 @@ public class UpgreadePanel : MonoBehaviour
     }
     public void UpdateUI(){
         blackImage.gameObject.SetActive(soldier.upgrade==0);
+        questionMark.gameObject.SetActive(soldier.upgrade==0);
 
         soldierNameText.text = (soldier.upgrade==0)?"???":soldier.solderName;
         priceText.text = string.Format("{0}",BigIntegerManager.GetUnit(BigInteger.Parse(soldier.price)));

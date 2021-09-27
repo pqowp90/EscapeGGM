@@ -1,36 +1,641 @@
 ﻿{
     "userName": "",
-    "money": "988825",
+    "money": "9046850",
     "ePC": "0",
     "solderList": [
         {
             "soldierNumber": 0,
             "solderName": "스네이크권 계승자 민준",
-            "upgrade": 1308,
+            "solderDISC": "",
+            "upgrade": 0,
             "ePs": "1",
             "price": "100000000"
         },
         {
             "soldierNumber": 1,
             "solderName": "졸렬한 마법사 어시온",
-            "upgrade": 172,
+            "solderDISC": "",
+            "upgrade": 0,
             "ePs": "1",
             "price": "4425722"
         },
         {
             "soldierNumber": 2,
             "solderName": "분노조절잘해 수안",
-            "upgrade": 1174,
+            "solderDISC": "",
+            "upgrade": 0,
             "ePs": "1",
             "price": "4387596"
         },
         {
             "soldierNumber": 3,
             "solderName": "독재자 태영",
-            "upgrade": 2691,
+            "solderDISC": "",
+            "upgrade": 0,
             "ePs": "1",
             "price": "6013007"
         }
     ],
-    "Weapon": []
+    "Weapon": [
+        {
+            "Name": "나무검",
+            "weaponNumber": 0,
+            "weaponDISC": "나무로 만든 검이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "나무창",
+            "weaponNumber": 1,
+            "weaponDISC": "나무로 만든 창이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "나무도끼",
+            "weaponNumber": 2,
+            "weaponDISC": "나무로 만든 도끼다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "견습기사의 검",
+            "weaponNumber": 3,
+            "weaponDISC": "견습기사 문강혁이 쓰던 칼이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "철검",
+            "weaponNumber": 4,
+            "weaponDISC": "철로만든 검이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "무시무시한",
+            "weaponNumber": 5,
+            "weaponDISC": "맞으면 뼈도 못추릴것 같다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "비룡도",
+            "weaponNumber": 6,
+            "weaponDISC": "비룡이 쓰던 칼이라는 소문이 있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "괴물싹싹",
+            "weaponNumber": 7,
+            "weaponDISC": "아주 잘 썰린다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "나X키 칼",
+            "weaponNumber": 8,
+            "weaponDISC": "던지면 다시 돌아올것처럼 생겼다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "반달칼",
+            "weaponNumber": 9,
+            "weaponDISC": "반달모양의 검이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "도끼칼",
+            "weaponNumber": 10,
+            "weaponDISC": "도끼같지만 칼이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "견고한 도끼칼",
+            "weaponNumber": 11,
+            "weaponDISC": "견고합니다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "매직 도끼칼",
+            "weaponNumber": 12,
+            "weaponDISC": "매직 스톤이 박혀있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "멋쟁이 도끼칼",
+            "weaponNumber": 13,
+            "weaponDISC": "멋쟁이.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "티타늄 칼",
+            "weaponNumber": 14,
+            "weaponDISC": "아주 가볍다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "지느러미칼",
+            "weaponNumber": 15,
+            "weaponDISC": "지느러미가 두개 달려있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "냉동닭다리",
+            "weaponNumber": 16,
+            "weaponDISC": "닭다리에 얼음이 얼었다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "부엌칼",
+            "weaponNumber": 17,
+            "weaponDISC": "엄마가 쓰는 칼이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "자해검",
+            "weaponNumber": 18,
+            "weaponDISC": "손잡이에 칼날이 달려있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "마법공학총검",
+            "weaponNumber": 19,
+            "weaponDISC": "마법은 안나오지만 마법같이 아프다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "마체테",
+            "weaponNumber": 20,
+            "weaponDISC": "마체테.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "뽀로롱",
+            "weaponNumber": 21,
+            "weaponDISC": "뽀로로를 갈아서 만들었다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "G브레이커",
+            "weaponNumber": 22,
+            "weaponDISC": "상어 지느러미처럼 생겼다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "엘리자베트3세",
+            "weaponNumber": 23,
+            "weaponDISC": "엘리자베스 여왕이 썼다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "날두",
+            "weaponNumber": 24,
+            "weaponDISC": "날이 두개다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "Baam",
+            "weaponNumber": 25,
+            "weaponDISC": "뱀이다~뱀이다~",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "한방에주님곁으로",
+            "weaponNumber": 26,
+            "weaponDISC": "홀리..",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "부러진 검",
+            "weaponNumber": 27,
+            "weaponDISC": "부려졌다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "식빵손베었다",
+            "weaponNumber": 28,
+            "weaponDISC": "손에서 피가난다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "그냥총",
+            "weaponNumber": 29,
+            "weaponDISC": "총.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "코딱지칼",
+            "weaponNumber": 30,
+            "weaponDISC": "코딱지를 모아봤다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "한민영팬티칼",
+            "weaponNumber": 31,
+            "weaponDISC": "찢어진 한민영의 팬티를 감았다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "윤이나는칼",
+            "weaponNumber": 32,
+            "weaponDISC": "반짝반짝.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "테드창",
+            "weaponNumber": 33,
+            "weaponDISC": "김씨인데 왜 테드창인지 모르겠다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "스탑 블레이드",
+            "weaponNumber": 34,
+            "weaponDISC": "시간을 돌려서 또 때린다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "수박바",
+            "weaponNumber": 35,
+            "weaponDISC": "커다란 수박하나 잘익었나 통통통!",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "고민정의 사탕",
+            "weaponNumber": 36,
+            "weaponDISC": "핑크색이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "철썩!",
+            "weaponNumber": 37,
+            "weaponDISC": "옆면으로 때리면 더 아프다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "요정도~",
+            "weaponNumber": 38,
+            "weaponDISC": "윙가르디오 레비오우싸~",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "대장장이 제형주의 명검",
+            "weaponNumber": 39,
+            "weaponDISC": "어이쿠 손이 미끄러졌네~",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "성기사의 검",
+            "weaponNumber": 40,
+            "weaponDISC": "왕을 지킨다!",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "아구몬의 입냄새",
+            "weaponNumber": 41,
+            "weaponDISC": "민트향이난다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "청포도 먹을래?",
+            "weaponNumber": 42,
+            "weaponDISC": "냐미~",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "플레임완드",
+            "weaponNumber": 43,
+            "weaponDISC": "싹다불태워라~",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "제임스",
+            "weaponNumber": 44,
+            "weaponDISC": "살아있는 검이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "사신의 낫",
+            "weaponNumber": 45,
+            "weaponDISC": "영혼을 뺏어간다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "크록스",
+            "weaponNumber": 46,
+            "weaponDISC": "악어때가나온다~",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "카타나",
+            "weaponNumber": 47,
+            "weaponDISC": "눈보다 빠르다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "죠스-바",
+            "weaponNumber": 48,
+            "weaponDISC": "상어맛이 난다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "톱날검",
+            "weaponNumber": 49,
+            "weaponDISC": "쓱싹쓱싹~.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "포이즌 칼",
+            "weaponNumber": 50,
+            "weaponDISC": "베이지 않게 조심해야겠다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "포이즌 가위 칼",
+            "weaponNumber": 51,
+            "weaponDISC": "가볍다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "포이즌 스워드",
+            "weaponNumber": 52,
+            "weaponDISC": "꼬불꼬불.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "포이즌 슬라이스",
+            "weaponNumber": 53,
+            "weaponDISC": "맛살로 만들어버린다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "매직 포이즌 슬라이스",
+            "weaponNumber": 54,
+            "weaponDISC": "닿는순간 녹아버린다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "포이즌 롱소드",
+            "weaponNumber": 55,
+            "weaponDISC": "과일칼로 적합하다",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "포이즌 건스워드맨",
+            "weaponNumber": 56,
+            "weaponDISC": "흔적도 남기지 않는다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "홀리X 칼리버",
+            "weaponNumber": 57,
+            "weaponDISC": "주님이 아른거린다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "벽력일섬",
+            "weaponNumber": 58,
+            "weaponDISC": "짜릿한 맛을 볼수있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "흑염룡의 영혼",
+            "weaponNumber": 59,
+            "weaponDISC": "조금 냄새가 난다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "오징어칼리버",
+            "weaponNumber": 60,
+            "weaponDISC": "맛이 일품이다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "중세 기사의 헬멧",
+            "weaponNumber": 61,
+            "weaponDISC": "간질간질.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "뻠낀소드",
+            "weaponNumber": 62,
+            "weaponDISC": "상당히 아프다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "검정드레곤의 이빨",
+            "weaponNumber": 63,
+            "weaponDISC": "충치가 있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "스플라인 소드",
+            "weaponNumber": 64,
+            "weaponDISC": "빨간색 선에서 열기를 내뿜는다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "너클소드",
+            "weaponNumber": 65,
+            "weaponDISC": "근접에서 신속한 대처를 할수있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "고추블레이드",
+            "weaponNumber": 66,
+            "weaponDISC": "맵다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "전기톱 블레이드",
+            "weaponNumber": 67,
+            "weaponDISC": "가만히 있어도 싸울수 있다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "뇌룡슬레이어",
+            "weaponNumber": 68,
+            "weaponDISC": "쿠콰쾅!",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "한조 대기중",
+            "weaponNumber": 69,
+            "weaponDISC": "용의눈으로 봐라.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "지옥차륜도",
+            "weaponNumber": 70,
+            "weaponDISC": "미안해요 할범.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "반짝반짝 번개따라",
+            "weaponNumber": 71,
+            "weaponDISC": "찌리찌리 짜라짜라~",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "선텐블레이드",
+            "weaponNumber": 72,
+            "weaponDISC": "섹시해진다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "바람개비",
+            "weaponNumber": 73,
+            "weaponDISC": "안돌아간다.",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        },
+        {
+            "Name": "최강의검",
+            "weaponNumber": 74,
+            "weaponDISC": "-/개발자용 검/-",
+            "upgrade": 0,
+            "damage": "0",
+            "price": "0"
+        }
+    ]
 }
