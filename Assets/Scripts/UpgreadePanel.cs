@@ -57,7 +57,7 @@ public class UpgreadePanel : MonoBehaviour
         }
         GameManager.Instance.money -= BigInteger.Parse(soldier.price);
         
-        soldier.price = BigInteger.Parse(soldier.price).ToString();
+        soldier.price = BigInteger.Multiply(BigInteger.Divide(BigInteger.Parse(soldier.price),2),10).ToString();
         soldier.upgrade++;
         GameManager.Instance.UI.UpdateEnergyPanel();
         UpdateUI();

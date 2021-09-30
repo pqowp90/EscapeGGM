@@ -65,6 +65,7 @@ public class UIManager : MonoBehaviour
                 weapon.weaponNumber = i;
                 weapon.upgrade = (i==0)?1:0;
                 weapon.damage = ((BigInteger)100*(BigInteger)Mathf.Pow(3,i)).ToString();
+                weapon.price = ((BigInteger)1000*(BigInteger)Mathf.Pow(3,i)).ToString();
             }
             newPanelComponent2.SetValue(weapon);
             newPanel.SetActive(true);
@@ -72,6 +73,12 @@ public class UIManager : MonoBehaviour
         }
         if(scrollManager!=null)
             scrollManager.GetUi();
+        if(isNew){
+            foreach(Monster monster in GameManager.Instance.CurrentUser.Monster){
+                monster.hp = "1000";
+                monster.gold = "200";
+            }
+        }
     }
     public void OnClickBeaker(){
         if(GameManager.Instance.isRun)return;
@@ -83,7 +90,7 @@ public class UIManager : MonoBehaviour
         
     }
     private void Bbok(){
-        AllPoolManager.Instance.GetObjPos(0,finger.position).gameObject.SetActive(true);
+        // AllPoolManager.Instance.GetObjPos(0,finger.position).gameObject.SetActive(true);
         EnergyText newText = null;
         if(pool.childCount>0){
             newText = pool.GetChild(0).GetComponent<EnergyText>();

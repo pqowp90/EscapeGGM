@@ -60,18 +60,22 @@ public class WeaponPanel : MonoBehaviour
     public void SetWeapon(){
         GameManager.Instance.CurrentUser.weaponSet = weapon.weaponNumber;
         GameManager.Instance.playerHand.sprite = saveImage.weaponSprites[weapon.weaponNumber];
+        GameManager.Instance.SetPlayerDamage();
     }
     public void OnclickPurchase(){
         if(GameManager.Instance.money < BigInteger.Parse(weapon.price)){
             return;
         }
         GameManager.Instance.money -= BigInteger.Parse(weapon.price);
+        weapon.damage = (BigInteger.Parse(weapon.damage)/10*12).ToString();
         
-        weapon.price = BigInteger.Parse(weapon.price).ToString();
+        weapon.price = (BigInteger.Parse(weapon.price)/10*12).ToString();
+        
         weapon.upgrade++;
         GameManager.Instance.UI.UpdateEnergyPanel();
         UpdateUI();
         CanUpgrade();
+        GameManager.Instance.SetPlayerDamage();
     }
     public void ShowExplanation(){
         StartCoroutine(explanation.ComeonExplanation(weaponNameText.transform.parent.parent,weaponImage.rectTransform.position,(weapon.upgrade==0)?"???":weapon.Name,(weapon.upgrade==0)?"??? ??? ???":weapon.weaponDISC));

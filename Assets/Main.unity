@@ -5921,8 +5921,9 @@ RectTransform:
   - {fileID: 729429475}
   - {fileID: 2021726833}
   - {fileID: 2022151960}
+  - {fileID: 1830904165}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5959,7 +5960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objects:
-  - {fileID: 5599587737817809697, guid: aabae6bfa71a5e04bbf833b6849017c5, type: 3}
+  - {fileID: 2021171242320099199, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
   mothersOfObjects:
   - {fileID: 0}
 --- !u!4 &169724648
@@ -5974,7 +5975,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &174122130
 GameObject:
@@ -7508,7 +7509,7 @@ Transform:
   - {fileID: 1497087914}
   - {fileID: 1489808608}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &445209645
 GameObject:
@@ -8131,7 +8132,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 20.200005}
+  m_AnchoredPosition: {x: 4.1, y: 30.8}
   m_SizeDelta: {x: -40.89, y: -40.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &525450869
@@ -8154,7 +8155,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70d11965eb9411b4e8b046294739b3e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d0c203f053a91f043a15225cb904c0fe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8277,7 +8278,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\uD018\uC2A4\uD2B8"
+  m_Text: "\uC2DD\uBBFC\uC9C0"
 --- !u!222 &536426941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8336,7 +8337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8443,6 +8444,82 @@ Transform:
   m_Father: {fileID: 427105095}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &627335748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 627335749}
+  - component: {fileID: 627335751}
+  - component: {fileID: 627335750}
+  m_Layer: 5
+  m_Name: "\uCCB4\uB825\uBC14"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &627335749
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627335748}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1498260534}
+  m_Father: {fileID: 1830904165}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.00012207031, y: -142}
+  m_SizeDelta: {x: 177.68, y: 21.12}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &627335750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627335748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.23584908, g: 0.17243683, b: 0.17243683, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 480bc01448265194c8fc76b60b54a45a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &627335751
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627335748}
+  m_CullTransparentMesh: 1
 --- !u!1 &640330824
 GameObject:
   m_ObjectHideFlags: 0
@@ -8905,7 +8982,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1577460344}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 6
@@ -9913,6 +9990,71 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!1001 &982883627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1630461
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.073782
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099184, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099185, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_Size.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099185, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021171242320099199, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
+      propertyPath: m_Name
+      value: "\uC2AC\uB798\uC2DC"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f221419cb7f0dc478b6fa533c2c259d, type: 3}
 --- !u!1 &993022328
 GameObject:
   m_ObjectHideFlags: 0
@@ -11387,7 +11529,7 @@ Transform:
   - {fileID: 890897139}
   - {fileID: 244555533}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1254199689
 MonoBehaviour:
@@ -11403,6 +11545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myTransform: {fileID: 0}
   speed: 2
+  hpBar: {fileID: 1830904165}
 --- !u!1 &1304416117
 GameObject:
   m_ObjectHideFlags: 0
@@ -12758,6 +12901,81 @@ Transform:
   m_Father: {fileID: 427105095}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1498260533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498260534}
+  - component: {fileID: 1498260536}
+  - component: {fileID: 1498260535}
+  m_Layer: 5
+  m_Name: "\uCC44\uC6B0\uAE30"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1498260534
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498260533}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 627335749}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1498260535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498260533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6981132, g: 0.13501245, b: 0.13501245, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 480bc01448265194c8fc76b60b54a45a, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1498260536
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498260533}
+  m_CullTransparentMesh: 1
 --- !u!1 &1526627990
 GameObject:
   m_ObjectHideFlags: 0
@@ -12944,9 +13162,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1577460345}
-  - component: {fileID: 1577460344}
   - component: {fileID: 1577460347}
   - component: {fileID: 1577460346}
+  - component: {fileID: 1577460348}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -12954,600 +13172,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1577460344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577460343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03577733a9a859043a542c73fc136c48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHand: {fileID: 4537740407235081066}
-  user:
-    userName: 
-    money: 0
-    ePC: 0
-    weaponSet: 0
-    solderList:
-    - soldierNumber: 0
-      solderName: "\uC2A4\uB124\uC774\uD06C\uAD8C \uACC4\uC2B9\uC790 \uBBFC\uC900"
-      solderDISC: 
-      upgrade: 0
-      ePs: 1
-      price: 600000
-    - soldierNumber: 1
-      solderName: "\uC878\uB82C\uD55C \uB9C8\uBC95\uC0AC \uC5B4\uC2DC\uC628"
-      solderDISC: 
-      upgrade: 0
-      ePs: 1
-      price: 1400000000
-    - soldierNumber: 2
-      solderName: "\uBD84\uB178\uC870\uC808\uC798\uD574 \uC218\uC548"
-      solderDISC: 
-      upgrade: 0
-      ePs: 1
-      price: 40000000000000
-    - soldierNumber: 3
-      solderName: "\uB3C5\uC7AC\uC790 \uD0DC\uC601"
-      solderDISC: 
-      upgrade: 0
-      ePs: 1
-      price: 121000000000000000
-    Weapon:
-    - Name: "\uB098\uBB34\uAC80"
-      weaponNumber: 0
-      weaponDISC: "\uB098\uBB34\uB85C \uB9CC\uB4E0 \uAC80\uC774\uB2E4."
-      upgrade: 1
-      damage: 100
-      price: 0
-    - Name: "\uB098\uBB34\uCC3D"
-      weaponNumber: 1
-      weaponDISC: "\uB098\uBB34\uB85C \uB9CC\uB4E0 \uCC3D\uC774\uB2E4."
-      upgrade: 0
-      damage: 300
-      price: 0
-    - Name: "\uB098\uBB34\uB3C4\uB07C"
-      weaponNumber: 2
-      weaponDISC: "\uB098\uBB34\uB85C \uB9CC\uB4E0 \uB3C4\uB07C\uB2E4."
-      upgrade: 0
-      damage: 900
-      price: 0
-    - Name: "\uACAC\uC2B5\uAE30\uC0AC\uC758 \uAC80"
-      weaponNumber: 3
-      weaponDISC: "\uACAC\uC2B5\uAE30\uC0AC \uBB38\uAC15\uD601\uC774 \uC4F0\uB358
-        \uCE7C\uC774\uB2E4."
-      upgrade: 0
-      damage: 2700
-      price: 0
-    - Name: "\uCCA0\uAC80"
-      weaponNumber: 4
-      weaponDISC: "\uCCA0\uB85C\uB9CC\uB4E0 \uAC80\uC774\uB2E4."
-      upgrade: 0
-      damage: 8100
-      price: 0
-    - Name: "\uBB34\uC2DC\uBB34\uC2DC\uD55C"
-      weaponNumber: 5
-      weaponDISC: "\uB9DE\uC73C\uBA74 \uBF08\uB3C4 \uBABB\uCD94\uB9B4\uAC83 \uAC19\uB2E4."
-      upgrade: 0
-      damage: 24300
-      price: 0
-    - Name: "\uBE44\uB8E1\uB3C4"
-      weaponNumber: 6
-      weaponDISC: "\uBE44\uB8E1\uC774 \uC4F0\uB358 \uCE7C\uC774\uB77C\uB294 \uC18C\uBB38\uC774
-        \uC788\uB2E4."
-      upgrade: 0
-      damage: 72900
-      price: 0
-    - Name: "\uAD34\uBB3C\uC2F9\uC2F9"
-      weaponNumber: 7
-      weaponDISC: "\uC544\uC8FC \uC798 \uC370\uB9B0\uB2E4."
-      upgrade: 0
-      damage: 218700
-      price: 0
-    - Name: "\uB098X\uD0A4 \uCE7C"
-      weaponNumber: 8
-      weaponDISC: "\uB358\uC9C0\uBA74 \uB2E4\uC2DC \uB3CC\uC544\uC62C\uAC83\uCC98\uB7FC
-        \uC0DD\uACBC\uB2E4."
-      upgrade: 0
-      damage: 656100
-      price: 0
-    - Name: "\uBC18\uB2EC\uCE7C"
-      weaponNumber: 9
-      weaponDISC: "\uBC18\uB2EC\uBAA8\uC591\uC758 \uAC80\uC774\uB2E4."
-      upgrade: 0
-      damage: 1968300
-      price: 0
-    - Name: "\uB3C4\uB07C\uCE7C"
-      weaponNumber: 10
-      weaponDISC: "\uB3C4\uB07C\uAC19\uC9C0\uB9CC \uCE7C\uC774\uB2E4."
-      upgrade: 0
-      damage: 5904900
-      price: 0
-    - Name: "\uACAC\uACE0\uD55C \uB3C4\uB07C\uCE7C"
-      weaponNumber: 11
-      weaponDISC: "\uACAC\uACE0\uD569\uB2C8\uB2E4."
-      upgrade: 0
-      damage: 17714700
-      price: 0
-    - Name: "\uB9E4\uC9C1 \uB3C4\uB07C\uCE7C"
-      weaponNumber: 12
-      weaponDISC: "\uB9E4\uC9C1 \uC2A4\uD1A4\uC774 \uBC15\uD600\uC788\uB2E4."
-      upgrade: 0
-      damage: 53144100
-      price: 0
-    - Name: "\uBA4B\uC7C1\uC774 \uB3C4\uB07C\uCE7C"
-      weaponNumber: 13
-      weaponDISC: "\uBA4B\uC7C1\uC774."
-      upgrade: 0
-      damage: 159432300
-      price: 0
-    - Name: "\uD2F0\uD0C0\uB284 \uCE7C"
-      weaponNumber: 14
-      weaponDISC: "\uC544\uC8FC \uAC00\uBCCD\uB2E4."
-      upgrade: 0
-      damage: 478296900
-      price: 0
-    - Name: "\uC9C0\uB290\uB7EC\uBBF8\uCE7C"
-      weaponNumber: 15
-      weaponDISC: "\uC9C0\uB290\uB7EC\uBBF8\uAC00 \uB450\uAC1C \uB2EC\uB824\uC788\uB2E4."
-      upgrade: 0
-      damage: 1434890700
-      price: 0
-    - Name: "\uB0C9\uB3D9\uB2ED\uB2E4\uB9AC"
-      weaponNumber: 16
-      weaponDISC: "\uB2ED\uB2E4\uB9AC\uC5D0 \uC5BC\uC74C\uC774 \uC5BC\uC5C8\uB2E4."
-      upgrade: 0
-      damage: 4304672000
-      price: 0
-    - Name: "\uBD80\uC5CC\uCE7C"
-      weaponNumber: 17
-      weaponDISC: "\uC5C4\uB9C8\uAC00 \uC4F0\uB294 \uCE7C\uC774\uB2E4."
-      upgrade: 0
-      damage: 12914016000
-      price: 0
-    - Name: "\uC790\uD574\uAC80"
-      weaponNumber: 18
-      weaponDISC: "\uC190\uC7A1\uC774\uC5D0 \uCE7C\uB0A0\uC774 \uB2EC\uB824\uC788\uB2E4."
-      upgrade: 0
-      damage: 38742048000
-      price: 0
-    - Name: "\uB9C8\uBC95\uACF5\uD559\uCD1D\uAC80"
-      weaponNumber: 19
-      weaponDISC: "\uB9C8\uBC95\uC740 \uC548\uB098\uC624\uC9C0\uB9CC \uB9C8\uBC95\uAC19\uC774
-        \uC544\uD504\uB2E4."
-      upgrade: 0
-      damage: 116226150400
-      price: 0
-    - Name: "\uB9C8\uCCB4\uD14C"
-      weaponNumber: 20
-      weaponDISC: "\uB9C8\uCCB4\uD14C."
-      upgrade: 0
-      damage: 348678451200
-      price: 0
-    - Name: "\uBF40\uB85C\uB871"
-      weaponNumber: 21
-      weaponDISC: "\uBF40\uB85C\uB85C\uB97C \uAC08\uC544\uC11C \uB9CC\uB4E4\uC5C8\uB2E4."
-      upgrade: 0
-      damage: 1046035353600
-      price: 0
-    - Name: "G\uBE0C\uB808\uC774\uCEE4"
-      weaponNumber: 22
-      weaponDISC: "\uC0C1\uC5B4 \uC9C0\uB290\uB7EC\uBBF8\uCC98\uB7FC \uC0DD\uACBC\uB2E4."
-      upgrade: 0
-      damage: 3138105958400
-      price: 0
-    - Name: "\uC5D8\uB9AC\uC790\uBCA0\uD2B83\uC138"
-      weaponNumber: 23
-      weaponDISC: "\uC5D8\uB9AC\uC790\uBCA0\uC2A4 \uC5EC\uC655\uC774 \uC37C\uB2E4."
-      upgrade: 0
-      damage: 9414317670400
-      price: 0
-    - Name: "\uB0A0\uB450"
-      weaponNumber: 24
-      weaponDISC: "\uB0A0\uC774 \uB450\uAC1C\uB2E4."
-      upgrade: 0
-      damage: 28242952192000
-      price: 0
-    - Name: Baam
-      weaponNumber: 25
-      weaponDISC: "\uBC40\uC774\uB2E4~\uBC40\uC774\uB2E4~"
-      upgrade: 0
-      damage: 84728859852800
-      price: 0
-    - Name: "\uD55C\uBC29\uC5D0\uC8FC\uB2D8\uACC1\uC73C\uB85C"
-      weaponNumber: 26
-      weaponDISC: "\uD640\uB9AC.."
-      upgrade: 0
-      damage: 254186592665600
-      price: 0
-    - Name: "\uBD80\uB7EC\uC9C4 \uAC80"
-      weaponNumber: 27
-      weaponDISC: "\uBD80\uB824\uC84C\uB2E4."
-      upgrade: 0
-      damage: 762559751782400
-      price: 0
-    - Name: "\uC2DD\uBE75\uC190\uBCA0\uC5C8\uB2E4"
-      weaponNumber: 28
-      weaponDISC: "\uC190\uC5D0\uC11C \uD53C\uAC00\uB09C\uB2E4."
-      upgrade: 0
-      damage: 2287679307776000
-      price: 0
-    - Name: "\uADF8\uB0E5\uCD1D"
-      weaponNumber: 29
-      weaponDISC: "\uCD1D."
-      upgrade: 0
-      damage: 6863037713612800
-      price: 0
-    - Name: "\uCF54\uB531\uC9C0\uCE7C"
-      weaponNumber: 30
-      weaponDISC: "\uCF54\uB531\uC9C0\uB97C \uBAA8\uC544\uBD24\uB2E4."
-      upgrade: 0
-      damage: 20589113560268800
-      price: 0
-    - Name: "\uD55C\uBBFC\uC601\uD32C\uD2F0\uCE7C"
-      weaponNumber: 31
-      weaponDISC: "\uCC22\uC5B4\uC9C4 \uD55C\uBBFC\uC601\uC758 \uD32C\uD2F0\uB97C
-        \uAC10\uC558\uB2E4."
-      upgrade: 0
-      damage: 61767340680806400
-      price: 0
-    - Name: "\uC724\uC774\uB098\uB294\uCE7C"
-      weaponNumber: 32
-      weaponDISC: "\uBC18\uC9DD\uBC18\uC9DD."
-      upgrade: 0
-      damage: 185302015331532800
-      price: 0
-    - Name: "\uD14C\uB4DC\uCC3D"
-      weaponNumber: 33
-      weaponDISC: "\uAE40\uC528\uC778\uB370 \uC65C \uD14C\uB4DC\uCC3D\uC778\uC9C0
-        \uBAA8\uB974\uACA0\uB2E4."
-      upgrade: 0
-      damage: 555906045994598400
-      price: 0
-    - Name: "\uC2A4\uD0D1 \uBE14\uB808\uC774\uB4DC"
-      weaponNumber: 34
-      weaponDISC: "\uC2DC\uAC04\uC744 \uB3CC\uB824\uC11C \uB610 \uB54C\uB9B0\uB2E4."
-      upgrade: 0
-      damage: 1667718191670886400
-      price: 0
-    - Name: "\uC218\uBC15\uBC14"
-      weaponNumber: 35
-      weaponDISC: "\uCEE4\uB2E4\uB780 \uC218\uBC15\uD558\uB098 \uC798\uC775\uC5C8\uB098
-        \uD1B5\uD1B5\uD1B5!"
-      upgrade: 0
-      damage: 5003154575012659200
-      price: 0
-    - Name: "\uACE0\uBBFC\uC815\uC758 \uC0AC\uD0D5"
-      weaponNumber: 36
-      weaponDISC: "\uD551\uD06C\uC0C9\uC774\uB2E4."
-      upgrade: 0
-      damage: 15009464154534707200
-      price: 0
-    - Name: "\uCCA0\uC369!"
-      weaponNumber: 37
-      weaponDISC: "\uC606\uBA74\uC73C\uB85C \uB54C\uB9AC\uBA74 \uB354 \uC544\uD504\uB2E4."
-      upgrade: 0
-      damage: 45028389027630284800
-      price: 0
-    - Name: "\uC694\uC815\uB3C4~"
-      weaponNumber: 38
-      weaponDISC: "\uC719\uAC00\uB974\uB514\uC624 \uB808\uBE44\uC624\uC6B0\uC2F8~"
-      upgrade: 0
-      damage: 135085173954838528000
-      price: 0
-    - Name: "\uB300\uC7A5\uC7A5\uC774 \uC81C\uD615\uC8FC\uC758 \uBA85\uAC80"
-      weaponNumber: 39
-      weaponDISC: "\uC5B4\uC774\uCFE0 \uC190\uC774 \uBBF8\uB044\uB7EC\uC84C\uB124~"
-      upgrade: 0
-      damage: 405255521864515584000
-      price: 0
-    - Name: "\uC131\uAE30\uC0AC\uC758 \uAC80"
-      weaponNumber: 40
-      weaponDISC: "\uC655\uC744 \uC9C0\uD0A8\uB2E4!"
-      upgrade: 0
-      damage: 1215766510617965363200
-      price: 0
-    - Name: "\uC544\uAD6C\uBAAC\uC758 \uC785\uB0C4\uC0C8"
-      weaponNumber: 41
-      weaponDISC: "\uBBFC\uD2B8\uD5A5\uC774\uB09C\uB2E4."
-      upgrade: 0
-      damage: 3647299531853896089600
-      price: 0
-    - Name: "\uCCAD\uD3EC\uB3C4 \uBA39\uC744\uB798?"
-      weaponNumber: 42
-      weaponDISC: "\uB0D0\uBBF8~"
-      upgrade: 0
-      damage: 10941899035366339379200
-      price: 0
-    - Name: "\uD50C\uB808\uC784\uC644\uB4DC"
-      weaponNumber: 43
-      weaponDISC: "\uC2F9\uB2E4\uBD88\uD0DC\uC6CC\uB77C~"
-      upgrade: 0
-      damage: 32825696226489715916800
-      price: 0
-    - Name: "\uC81C\uC784\uC2A4"
-      weaponNumber: 44
-      weaponDISC: "\uC0B4\uC544\uC788\uB294 \uAC80\uC774\uB2E4."
-      upgrade: 0
-      damage: 98477088679469147750400
-      price: 0
-    - Name: "\uC0AC\uC2E0\uC758 \uB0AB"
-      weaponNumber: 45
-      weaponDISC: "\uC601\uD63C\uC744 \uBE8F\uC5B4\uAC04\uB2E4."
-      upgrade: 0
-      damage: 295431266038407443251200
-      price: 0
-    - Name: "\uD06C\uB85D\uC2A4"
-      weaponNumber: 46
-      weaponDISC: "\uC545\uC5B4\uB54C\uAC00\uB098\uC628\uB2E4~"
-      upgrade: 0
-      damage: 886293826262720000819200
-      price: 0
-    - Name: "\uCE74\uD0C0\uB098"
-      weaponNumber: 47
-      weaponDISC: "\uB208\uBCF4\uB2E4 \uBE60\uB974\uB2E4."
-      upgrade: 0
-      damage: 2658881535083155344588800
-      price: 0
-    - Name: "\uC8E0\uC2A4-\uBC14"
-      weaponNumber: 48
-      weaponDISC: "\uC0C1\uC5B4\uB9DB\uC774 \uB09C\uB2E4."
-      upgrade: 0
-      damage: 7976644154889503296716800
-      price: 0
-    - Name: "\uD1B1\uB0A0\uAC80"
-      weaponNumber: 49
-      weaponDISC: "\uC4F1\uC2F9\uC4F1\uC2F9~."
-      upgrade: 0
-      damage: 23929932464668509890150400
-      price: 0
-    - Name: "\uD3EC\uC774\uC98C \uCE7C"
-      weaponNumber: 50
-      weaponDISC: "\uBCA0\uC774\uC9C0 \uC54A\uAC8C \uC870\uC2EC\uD574\uC57C\uACA0\uB2E4."
-      upgrade: 0
-      damage: 71789799195445380618649600
-      price: 0
-    - Name: "\uD3EC\uC774\uC98C \uAC00\uC704 \uCE7C"
-      weaponNumber: 51
-      weaponDISC: "\uAC00\uBCCD\uB2E4."
-      upgrade: 0
-      damage: 215369397586336141855948800
-      price: 0
-    - Name: "\uD3EC\uC774\uC98C \uC2A4\uC6CC\uB4DC"
-      weaponNumber: 52
-      weaponDISC: "\uAF2C\uBD88\uAF2C\uBD88."
-      upgrade: 0
-      damage: 646108163935970810396672000
-      price: 0
-    - Name: "\uD3EC\uC774\uC98C \uC2AC\uB77C\uC774\uC2A4"
-      weaponNumber: 53
-      weaponDISC: "\uB9DB\uC0B4\uB85C \uB9CC\uB4E4\uC5B4\uBC84\uB9B0\uB2E4."
-      upgrade: 0
-      damage: 1938324607100062891874713600
-      price: 0
-    - Name: "\uB9E4\uC9C1 \uD3EC\uC774\uC98C \uC2AC\uB77C\uC774\uC2A4"
-      weaponNumber: 54
-      weaponDISC: "\uB2FF\uB294\uC21C\uAC04 \uB179\uC544\uBC84\uB9B0\uB2E4."
-      upgrade: 0
-      damage: 5814973590715887754254745600
-      price: 0
-    - Name: "\uD3EC\uC774\uC98C \uB871\uC18C\uB4DC"
-      weaponNumber: 55
-      weaponDISC: "\uACFC\uC77C\uCE7C\uB85C \uC801\uD569\uD558\uB2E4"
-      upgrade: 0
-      damage: 17444921694484866948241817600
-      price: 0
-    - Name: "\uD3EC\uC774\uC98C \uAC74\uC2A4\uC6CC\uB4DC\uB9E8"
-      weaponNumber: 56
-      weaponDISC: "\uD754\uC801\uB3C4 \uB0A8\uAE30\uC9C0 \uC54A\uB294\uB2E4."
-      upgrade: 0
-      damage: 52334763238780193473770291200
-      price: 0
-    - Name: "\uD640\uB9ACX \uCE7C\uB9AC\uBC84"
-      weaponNumber: 57
-      weaponDISC: "\uC8FC\uB2D8\uC774 \uC544\uB978\uAC70\uB9B0\uB2E4."
-      upgrade: 0
-      damage: 157004297095038209905131520000
-      price: 0
-    - Name: "\uBCBD\uB825\uC77C\uC12C"
-      weaponNumber: 58
-      weaponDISC: "\uC9DC\uB9BF\uD55C \uB9DB\uC744 \uBCFC\uC218\uC788\uB2E4."
-      upgrade: 0
-      damage: 471012876527719370747753267200
-      price: 0
-    - Name: "\uD751\uC5FC\uB8E1\uC758 \uC601\uD63C"
-      weaponNumber: 59
-      weaponDISC: "\uC870\uAE08 \uB0C4\uC0C8\uAC00 \uB09C\uB2E4."
-      upgrade: 0
-      damage: 1413038659097948630178542387200
-      price: 0
-    - Name: "\uC624\uC9D5\uC5B4\uCE7C\uB9AC\uBC84"
-      weaponNumber: 60
-      weaponDISC: "\uB9DB\uC774 \uC77C\uD488\uC774\uB2E4."
-      upgrade: 0
-      damage: 4239115859234683818794496819200
-      price: 0
-    - Name: "\uC911\uC138 \uAE30\uC0AC\uC758 \uD5EC\uBA67"
-      weaponNumber: 61
-      weaponDISC: "\uAC04\uC9C8\uAC04\uC9C8."
-      upgrade: 0
-      damage: 12717347105467403169418969088000
-      price: 0
-    - Name: "\uBEE0\uB080\uC18C\uB4DC"
-      weaponNumber: 62
-      weaponDISC: "\uC0C1\uB2F9\uD788 \uC544\uD504\uB2E4."
-      upgrade: 0
-      damage: 38152044149822099230044035481600
-      price: 0
-    - Name: "\uAC80\uC815\uB4DC\uB808\uACE4\uC758 \uC774\uBE68"
-      weaponNumber: 63
-      weaponDISC: "\uCDA9\uCE58\uAC00 \uC788\uB2E4."
-      upgrade: 0
-      damage: 114456124893679925098699764531200
-      price: 0
-    - Name: "\uC2A4\uD50C\uB77C\uC778 \uC18C\uB4DC"
-      weaponNumber: 64
-      weaponDISC: "\uBE68\uAC04\uC0C9 \uC120\uC5D0\uC11C \uC5F4\uAE30\uB97C \uB0B4\uBFDC\uB294\uB2E4."
-      upgrade: 0
-      damage: 343368389792612520478963977420800
-      price: 0
-    - Name: "\uB108\uD074\uC18C\uB4DC"
-      weaponNumber: 65
-      weaponDISC: "\uADFC\uC811\uC5D0\uC11C \uC2E0\uC18D\uD55C \uB300\uCC98\uB97C
-        \uD560\uC218\uC788\uB2E4."
-      upgrade: 0
-      damage: 1030105139154692071071162564608000
-      price: 0
-    - Name: "\uACE0\uCD94\uBE14\uB808\uC774\uB4DC"
-      weaponNumber: 66
-      weaponDISC: "\uB9F5\uB2E4."
-      upgrade: 0
-      damage: 3090315417464076213213487693824000
-      price: 0
-    - Name: "\uC7A5\uBBF8\uCE7C"
-      weaponNumber: 67
-      weaponDISC: "\uC9C4\uC9DC \uC7A5\uBBF8\uB85C \uB9CC\uB4E4\uC5C8\uB2E4."
-      upgrade: 0
-      damage: 9270946494177392562566298022707200
-      price: 0
-    - Name: "\uC804\uAE30\uD1B1 \uBE14\uB808\uC774\uB4DC"
-      weaponNumber: 68
-      weaponDISC: "\uAC00\uB9CC\uD788 \uC788\uC5B4\uB3C4 \uC2F8\uC6B8\uC218 \uC788\uB2E4."
-      upgrade: 0
-      damage: 27812839482532177687698894068121600
-      price: 0
-    - Name: "\uB1CC\uB8E1\uC2AC\uB808\uC774\uC5B4"
-      weaponNumber: 69
-      weaponDISC: "\uCFE0\uCF70\uCF85!"
-      upgrade: 0
-      damage: 83438520381877844446503361734246400
-      price: 0
-    - Name: "\uD55C\uC870 \uB300\uAE30\uC911"
-      weaponNumber: 70
-      weaponDISC: "\uC6A9\uC758\uB208\uC73C\uB85C \uBD10\uB77C."
-      upgrade: 0
-      damage: 250315545671383042272256648963686400
-      price: 0
-    - Name: "\uC9C0\uC625\uCC28\uB95C\uB3C4"
-      weaponNumber: 71
-      weaponDISC: "\uBBF8\uC548\uD574\uC694 \uD560\uBC94."
-      upgrade: 0
-      damage: 750946621539898635749516510652006400
-      price: 0
-    - Name: "\uBC18\uC9DD\uBC18\uC9DD \uBC88\uAC1C\uB530\uB77C"
-      weaponNumber: 72
-      weaponDISC: "\uCC0C\uB9AC\uCC0C\uB9AC \uC9DC\uB77C\uC9DC\uB77C~"
-      upgrade: 0
-      damage: 2252839926516697871517563276912230400
-      price: 0
-    - Name: "\uC120\uD150\uBE14\uB808\uC774\uB4DC"
-      weaponNumber: 73
-      weaponDISC: "\uC139\uC2DC\uD574\uC9C4\uB2E4."
-      upgrade: 0
-      damage: 6758519779550093614552689830736691200
-      price: 0
-    - Name: "\uBC14\uB78C\uAC1C\uBE44"
-      weaponNumber: 74
-      weaponDISC: "\uC548\uB3CC\uC544\uAC04\uB2E4."
-      upgrade: 0
-      damage: 20275560329002312271962289411509452800
-      price: 0
-    - Name: "\uCD5C\uAC15\uC758\uAC80"
-      weaponNumber: 75
-      weaponDISC: "-/\uAC1C\uBC1C\uC790\uC6A9 \uAC80/-"
-      upgrade: 0
-      damage: 60826677025598811102669988557330841600
-      price: 0
-    Monster:
-    - Name: "\uAF2C\uB9C8\uC720\uB839"
-      monsterNumber: 0
-      monsterDISC: "\uADC0\uC5FD\uB2E4."
-      hp: 
-    - Name: "\uC815\uC815\uBC30\uD574\uACE8"
-      monsterNumber: 0
-      monsterDISC: "\uD53C\uACE4\uD574\uBCF4\uC778\uB2E4."
-      hp: 
-    - Name: "\uC81C\uD615\uC8FC\uD574\uACE8"
-      monsterNumber: 0
-      monsterDISC: "\uBAB8\uBE75\uC774 \uC815\uB9D0 \uC88B\uB2E4."
-      hp: 
-    - Name: "\uC6B0\uC218\uC548\uBAAC\uC2A4\uD130"
-      monsterNumber: 0
-      monsterDISC: "\uADC0\uC5FD\uB2E4."
-      hp: 
-    - Name: "\uC880\uB3C4\uB451 \uC81C\uC774\uC2A4"
-      monsterNumber: 0
-      monsterDISC: "\uC0DD\uAE34\uAC83\uACFC\uB294 \uC0C1\uBC18\uB418\uAC8C \uB9E4\uC6B0
-        \uBBFC\uCCA9\uD558\uB2E4."
-      hp: 
-    - Name: "\uC2AC\uB77C\uC784"
-      monsterNumber: 0
-      monsterDISC: "\uC2AC\uB77C\uC784."
-      hp: 
-    - Name: "\uC2AC\uB77C\uC784 \uC81C\uC774\uC2A4"
-      monsterNumber: 0
-      monsterDISC: "\uC2AC\uB77C\uC784\uC774 \uC81C\uC774\uC2A4\uB97C \uC0BC\uCF30\uB2E4."
-      hp: 
-    - Name: "\uBBF8\uBBF9"
-      monsterNumber: 0
-      monsterDISC: "\uBCF4\uBB3C\uC0C1\uC790\uAC00 \uC544\uB2C8\uB2E4."
-      hp: 
-    - Name: "\uB370\uBE4C \uCE74\uC774\uC800"
-      monsterNumber: 0
-      monsterDISC: "\uADC0\uC5FD\uB2E4."
-      hp: 
-    - Name: "\uB204\uAD70\uAC00\uC758 \uC190"
-      monsterNumber: 0
-      monsterDISC: "\uC73D \uC9D5\uADF8\uB7EC\uC6CC!"
-      hp: 
-    - Name: "\uB204\uAD70\uAC00\uC758 \uBC1C"
-      monsterNumber: 0
-      monsterDISC: "\uC73D \uC9D5\uADF8\uB7EC\uC6CC!"
-      hp: 
-    - Name: "\uD3EC\uC774\uC98C \uC2AC\uB77C\uC784"
-      monsterNumber: 0
-      monsterDISC: "\uB2FF\uC73C\uBA74 \uB179\uC544\uBC84\uB9B0\uB2E4."
-      hp: 
-    - Name: "\uB208\uB208\uB208"
-      monsterNumber: 0
-      monsterDISC: "\uB208\uC774 \uC138\uAC1C\uB098 \uB41C\uB2E4."
-      hp: 
-    - Name: "\uC678\uB208\uBC15\uC774 \uC774\uD0DC\uC601"
-      monsterNumber: 0
-      monsterDISC: "\uB208\uC774 \uD55C\uAC1C\uB2E4."
-      hp: 
-    - Name: "\uC678\uB208\uBC15\uC774 \uC774\uD0DC\uC601 2\uC138"
-      monsterNumber: 0
-      monsterDISC: "\uADC0\uC5FD\uB2E4."
-      hp: 
-    - Name: "\uC74C\uC4F0"
-      monsterNumber: 0
-      monsterDISC: "\uB0C4\uC0C8\uAC00 \uB09C\uB2E4."
-      hp: 
-    - Name: "\uAE40\uC138\uD604 \uBC29\uB791\uC790"
-      monsterNumber: 0
-      monsterDISC: "\uB9DD\uD1A0 \uC548\uC5D0\uB294 \uC544\uBB34\uAC83\uB3C4 \uC5C6\uB2E4."
-      hp: 
-    - Name: "\uB208\uC0AC\uB78C"
-      monsterNumber: 0
-      monsterDISC: "\uC544\uC774\uC2A4\uBC15\uC2A4\uC5D0\uC11C \uC654\uB2E4."
-      hp: 
-    - Name: "\uC5BC\uC74C\uC815\uB839"
-      monsterNumber: 0
-      monsterDISC: "\uADC0\uC5FD\uB2E4."
-      hp: 
-    - Name: "\uC5BC\uC74C\uAC8C"
-      monsterNumber: 0
-      monsterDISC: "\uADC0\uC5FD\uB2E4."
-      hp: 
-  isRun: 1
-  backgroundSpeed: 0.4
-  playerAnimator: {fileID: 4537740407758387750}
-  saveImage: {fileID: 1577460347}
 --- !u!4 &1577460345
 Transform:
   m_ObjectHideFlags: 0
@@ -13560,7 +13184,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1577460346
 MonoBehaviour:
@@ -13701,6 +13325,621 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6706b1f94b5904eb69abf09deac9919d, type: 3}
   - {fileID: 21300000, guid: c299a874afe8f4e06b955d55f4724a7f, type: 3}
   - {fileID: 21300000, guid: 3eb74a61e7c95401493d74181d134c98, type: 3}
+--- !u!114 &1577460348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577460343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03577733a9a859043a542c73fc136c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHand: {fileID: 4537740407235081066}
+  user:
+    userName: 
+    money: 1300
+    ePC: 0
+    weaponSet: 0
+    progress: 0
+    solderList:
+    - soldierNumber: 0
+      solderName: "\uC2A4\uB124\uC774\uD06C\uAD8C \uACC4\uC2B9\uC790 \uBBFC\uC900"
+      solderDISC: 
+      upgrade: 0
+      ePs: 1
+      price: 600000
+    - soldierNumber: 1
+      solderName: "\uC878\uB82C\uD55C \uB9C8\uBC95\uC0AC \uC5B4\uC2DC\uC628"
+      solderDISC: 
+      upgrade: 0
+      ePs: 1
+      price: 1400000000
+    - soldierNumber: 2
+      solderName: "\uBD84\uB178\uC870\uC808\uC798\uD574 \uC218\uC548"
+      solderDISC: 
+      upgrade: 0
+      ePs: 1
+      price: 40000000000000
+    - soldierNumber: 3
+      solderName: "\uB3C5\uC7AC\uC790 \uD0DC\uC601"
+      solderDISC: 
+      upgrade: 0
+      ePs: 1
+      price: 121000000000000000
+    Weapon:
+    - Name: "\uB098\uBB34\uAC80"
+      weaponNumber: 0
+      weaponDISC: "\uB098\uBB34\uB85C \uB9CC\uB4E0 \uAC80\uC774\uB2E4."
+      upgrade: 6
+      damage: 228
+      price: 2472
+    - Name: "\uB098\uBB34\uCC3D"
+      weaponNumber: 1
+      weaponDISC: "\uB098\uBB34\uB85C \uB9CC\uB4E0 \uCC3D\uC774\uB2E4."
+      upgrade: 1
+      damage: 360
+      price: 3600
+    - Name: "\uB098\uBB34\uB3C4\uB07C"
+      weaponNumber: 2
+      weaponDISC: "\uB098\uBB34\uB85C \uB9CC\uB4E0 \uB3C4\uB07C\uB2E4."
+      upgrade: 0
+      damage: 900
+      price: 9000
+    - Name: "\uACAC\uC2B5\uAE30\uC0AC\uC758 \uAC80"
+      weaponNumber: 3
+      weaponDISC: "\uACAC\uC2B5\uAE30\uC0AC \uBB38\uAC15\uD601\uC774 \uC4F0\uB358
+        \uCE7C\uC774\uB2E4."
+      upgrade: 0
+      damage: 2700
+      price: 27000
+    - Name: "\uCCA0\uAC80"
+      weaponNumber: 4
+      weaponDISC: "\uCCA0\uB85C\uB9CC\uB4E0 \uAC80\uC774\uB2E4."
+      upgrade: 0
+      damage: 8100
+      price: 81000
+    - Name: "\uBB34\uC2DC\uBB34\uC2DC\uD55C"
+      weaponNumber: 5
+      weaponDISC: "\uB9DE\uC73C\uBA74 \uBF08\uB3C4 \uBABB\uCD94\uB9B4\uAC83 \uAC19\uB2E4."
+      upgrade: 0
+      damage: 24300
+      price: 243000
+    - Name: "\uBE44\uB8E1\uB3C4"
+      weaponNumber: 6
+      weaponDISC: "\uBE44\uB8E1\uC774 \uC4F0\uB358 \uCE7C\uC774\uB77C\uB294 \uC18C\uBB38\uC774
+        \uC788\uB2E4."
+      upgrade: 0
+      damage: 72900
+      price: 729000
+    - Name: "\uAD34\uBB3C\uC2F9\uC2F9"
+      weaponNumber: 7
+      weaponDISC: "\uC544\uC8FC \uC798 \uC370\uB9B0\uB2E4."
+      upgrade: 0
+      damage: 218700
+      price: 2187000
+    - Name: "\uB098X\uD0A4 \uCE7C"
+      weaponNumber: 8
+      weaponDISC: "\uB358\uC9C0\uBA74 \uB2E4\uC2DC \uB3CC\uC544\uC62C\uAC83\uCC98\uB7FC
+        \uC0DD\uACBC\uB2E4."
+      upgrade: 0
+      damage: 656100
+      price: 6561000
+    - Name: "\uBC18\uB2EC\uCE7C"
+      weaponNumber: 9
+      weaponDISC: "\uBC18\uB2EC\uBAA8\uC591\uC758 \uAC80\uC774\uB2E4."
+      upgrade: 0
+      damage: 1968300
+      price: 19683000
+    - Name: "\uB3C4\uB07C\uCE7C"
+      weaponNumber: 10
+      weaponDISC: "\uB3C4\uB07C\uAC19\uC9C0\uB9CC \uCE7C\uC774\uB2E4."
+      upgrade: 0
+      damage: 5904900
+      price: 59049000
+    - Name: "\uACAC\uACE0\uD55C \uB3C4\uB07C\uCE7C"
+      weaponNumber: 11
+      weaponDISC: "\uACAC\uACE0\uD569\uB2C8\uB2E4."
+      upgrade: 0
+      damage: 17714700
+      price: 177147000
+    - Name: "\uB9E4\uC9C1 \uB3C4\uB07C\uCE7C"
+      weaponNumber: 12
+      weaponDISC: "\uB9E4\uC9C1 \uC2A4\uD1A4\uC774 \uBC15\uD600\uC788\uB2E4."
+      upgrade: 0
+      damage: 53144100
+      price: 531441000
+    - Name: "\uBA4B\uC7C1\uC774 \uB3C4\uB07C\uCE7C"
+      weaponNumber: 13
+      weaponDISC: "\uBA4B\uC7C1\uC774."
+      upgrade: 0
+      damage: 159432300
+      price: 1594323000
+    - Name: "\uD2F0\uD0C0\uB284 \uCE7C"
+      weaponNumber: 14
+      weaponDISC: "\uC544\uC8FC \uAC00\uBCCD\uB2E4."
+      upgrade: 0
+      damage: 478296900
+      price: 4782969000
+    - Name: "\uC9C0\uB290\uB7EC\uBBF8\uCE7C"
+      weaponNumber: 15
+      weaponDISC: "\uC9C0\uB290\uB7EC\uBBF8\uAC00 \uB450\uAC1C \uB2EC\uB824\uC788\uB2E4."
+      upgrade: 0
+      damage: 1434890700
+      price: 14348907000
+    - Name: "\uB0C9\uB3D9\uB2ED\uB2E4\uB9AC"
+      weaponNumber: 16
+      weaponDISC: "\uB2ED\uB2E4\uB9AC\uC5D0 \uC5BC\uC74C\uC774 \uC5BC\uC5C8\uB2E4."
+      upgrade: 0
+      damage: 4304672000
+      price: 43046720000
+    - Name: "\uBD80\uC5CC\uCE7C"
+      weaponNumber: 17
+      weaponDISC: "\uC5C4\uB9C8\uAC00 \uC4F0\uB294 \uCE7C\uC774\uB2E4."
+      upgrade: 0
+      damage: 12914016000
+      price: 129140160000
+    - Name: "\uC790\uD574\uAC80"
+      weaponNumber: 18
+      weaponDISC: "\uC190\uC7A1\uC774\uC5D0 \uCE7C\uB0A0\uC774 \uB2EC\uB824\uC788\uB2E4."
+      upgrade: 0
+      damage: 38742048000
+      price: 387420480000
+    - Name: "\uB9C8\uBC95\uACF5\uD559\uCD1D\uAC80"
+      weaponNumber: 19
+      weaponDISC: "\uB9C8\uBC95\uC740 \uC548\uB098\uC624\uC9C0\uB9CC \uB9C8\uBC95\uAC19\uC774
+        \uC544\uD504\uB2E4."
+      upgrade: 0
+      damage: 116226150400
+      price: 1162261504000
+    - Name: "\uB9C8\uCCB4\uD14C"
+      weaponNumber: 20
+      weaponDISC: "\uB9C8\uCCB4\uD14C."
+      upgrade: 0
+      damage: 348678451200
+      price: 3486784512000
+    - Name: "\uBF40\uB85C\uB871"
+      weaponNumber: 21
+      weaponDISC: "\uBF40\uB85C\uB85C\uB97C \uAC08\uC544\uC11C \uB9CC\uB4E4\uC5C8\uB2E4."
+      upgrade: 0
+      damage: 1046035353600
+      price: 10460353536000
+    - Name: "G\uBE0C\uB808\uC774\uCEE4"
+      weaponNumber: 22
+      weaponDISC: "\uC0C1\uC5B4 \uC9C0\uB290\uB7EC\uBBF8\uCC98\uB7FC \uC0DD\uACBC\uB2E4."
+      upgrade: 0
+      damage: 3138105958400
+      price: 31381059584000
+    - Name: "\uC5D8\uB9AC\uC790\uBCA0\uD2B83\uC138"
+      weaponNumber: 23
+      weaponDISC: "\uC5D8\uB9AC\uC790\uBCA0\uC2A4 \uC5EC\uC655\uC774 \uC37C\uB2E4."
+      upgrade: 0
+      damage: 9414317670400
+      price: 94143176704000
+    - Name: "\uB0A0\uB450"
+      weaponNumber: 24
+      weaponDISC: "\uB0A0\uC774 \uB450\uAC1C\uB2E4."
+      upgrade: 0
+      damage: 28242952192000
+      price: 282429521920000
+    - Name: Baam
+      weaponNumber: 25
+      weaponDISC: "\uBC40\uC774\uB2E4~\uBC40\uC774\uB2E4~"
+      upgrade: 0
+      damage: 84728859852800
+      price: 847288598528000
+    - Name: "\uD55C\uBC29\uC5D0\uC8FC\uB2D8\uACC1\uC73C\uB85C"
+      weaponNumber: 26
+      weaponDISC: "\uD640\uB9AC.."
+      upgrade: 0
+      damage: 254186592665600
+      price: 2541865926656000
+    - Name: "\uBD80\uB7EC\uC9C4 \uAC80"
+      weaponNumber: 27
+      weaponDISC: "\uBD80\uB824\uC84C\uB2E4."
+      upgrade: 0
+      damage: 762559751782400
+      price: 7625597517824000
+    - Name: "\uC2DD\uBE75\uC190\uBCA0\uC5C8\uB2E4"
+      weaponNumber: 28
+      weaponDISC: "\uC190\uC5D0\uC11C \uD53C\uAC00\uB09C\uB2E4."
+      upgrade: 0
+      damage: 2287679307776000
+      price: 22876793077760000
+    - Name: "\uADF8\uB0E5\uCD1D"
+      weaponNumber: 29
+      weaponDISC: "\uCD1D."
+      upgrade: 0
+      damage: 6863037713612800
+      price: 68630377136128000
+    - Name: "\uCF54\uB531\uC9C0\uCE7C"
+      weaponNumber: 30
+      weaponDISC: "\uCF54\uB531\uC9C0\uB97C \uBAA8\uC544\uBD24\uB2E4."
+      upgrade: 0
+      damage: 20589113560268800
+      price: 205891135602688000
+    - Name: "\uD55C\uBBFC\uC601\uD32C\uD2F0\uCE7C"
+      weaponNumber: 31
+      weaponDISC: "\uCC22\uC5B4\uC9C4 \uD55C\uBBFC\uC601\uC758 \uD32C\uD2F0\uB97C
+        \uAC10\uC558\uB2E4."
+      upgrade: 0
+      damage: 61767340680806400
+      price: 617673406808064000
+    - Name: "\uC724\uC774\uB098\uB294\uCE7C"
+      weaponNumber: 32
+      weaponDISC: "\uBC18\uC9DD\uBC18\uC9DD."
+      upgrade: 0
+      damage: 185302015331532800
+      price: 1853020153315328000
+    - Name: "\uD14C\uB4DC\uCC3D"
+      weaponNumber: 33
+      weaponDISC: "\uAE40\uC528\uC778\uB370 \uC65C \uD14C\uB4DC\uCC3D\uC778\uC9C0
+        \uBAA8\uB974\uACA0\uB2E4."
+      upgrade: 0
+      damage: 555906045994598400
+      price: 5559060459945984000
+    - Name: "\uC2A4\uD0D1 \uBE14\uB808\uC774\uB4DC"
+      weaponNumber: 34
+      weaponDISC: "\uC2DC\uAC04\uC744 \uB3CC\uB824\uC11C \uB610 \uB54C\uB9B0\uB2E4."
+      upgrade: 0
+      damage: 1667718191670886400
+      price: 16677181916708864000
+    - Name: "\uC218\uBC15\uBC14"
+      weaponNumber: 35
+      weaponDISC: "\uCEE4\uB2E4\uB780 \uC218\uBC15\uD558\uB098 \uC798\uC775\uC5C8\uB098
+        \uD1B5\uD1B5\uD1B5!"
+      upgrade: 0
+      damage: 5003154575012659200
+      price: 50031545750126592000
+    - Name: "\uACE0\uBBFC\uC815\uC758 \uC0AC\uD0D5"
+      weaponNumber: 36
+      weaponDISC: "\uD551\uD06C\uC0C9\uC774\uB2E4."
+      upgrade: 0
+      damage: 15009464154534707200
+      price: 150094641545347072000
+    - Name: "\uCCA0\uC369!"
+      weaponNumber: 37
+      weaponDISC: "\uC606\uBA74\uC73C\uB85C \uB54C\uB9AC\uBA74 \uB354 \uC544\uD504\uB2E4."
+      upgrade: 0
+      damage: 45028389027630284800
+      price: 450283890276302848000
+    - Name: "\uC694\uC815\uB3C4~"
+      weaponNumber: 38
+      weaponDISC: "\uC719\uAC00\uB974\uB514\uC624 \uB808\uBE44\uC624\uC6B0\uC2F8~"
+      upgrade: 0
+      damage: 135085173954838528000
+      price: 1350851739548385280000
+    - Name: "\uB300\uC7A5\uC7A5\uC774 \uC81C\uD615\uC8FC\uC758 \uBA85\uAC80"
+      weaponNumber: 39
+      weaponDISC: "\uC5B4\uC774\uCFE0 \uC190\uC774 \uBBF8\uB044\uB7EC\uC84C\uB124~"
+      upgrade: 0
+      damage: 405255521864515584000
+      price: 4052555218645155840000
+    - Name: "\uC131\uAE30\uC0AC\uC758 \uAC80"
+      weaponNumber: 40
+      weaponDISC: "\uC655\uC744 \uC9C0\uD0A8\uB2E4!"
+      upgrade: 0
+      damage: 1215766510617965363200
+      price: 12157665106179653632000
+    - Name: "\uC544\uAD6C\uBAAC\uC758 \uC785\uB0C4\uC0C8"
+      weaponNumber: 41
+      weaponDISC: "\uBBFC\uD2B8\uD5A5\uC774\uB09C\uB2E4."
+      upgrade: 0
+      damage: 3647299531853896089600
+      price: 36472995318538960896000
+    - Name: "\uCCAD\uD3EC\uB3C4 \uBA39\uC744\uB798?"
+      weaponNumber: 42
+      weaponDISC: "\uB0D0\uBBF8~"
+      upgrade: 0
+      damage: 10941899035366339379200
+      price: 109418990353663393792000
+    - Name: "\uD50C\uB808\uC784\uC644\uB4DC"
+      weaponNumber: 43
+      weaponDISC: "\uC2F9\uB2E4\uBD88\uD0DC\uC6CC\uB77C~"
+      upgrade: 0
+      damage: 32825696226489715916800
+      price: 328256962264897159168000
+    - Name: "\uC81C\uC784\uC2A4"
+      weaponNumber: 44
+      weaponDISC: "\uC0B4\uC544\uC788\uB294 \uAC80\uC774\uB2E4."
+      upgrade: 0
+      damage: 98477088679469147750400
+      price: 984770886794691477504000
+    - Name: "\uC0AC\uC2E0\uC758 \uB0AB"
+      weaponNumber: 45
+      weaponDISC: "\uC601\uD63C\uC744 \uBE8F\uC5B4\uAC04\uB2E4."
+      upgrade: 0
+      damage: 295431266038407443251200
+      price: 2954312660384074432512000
+    - Name: "\uD06C\uB85D\uC2A4"
+      weaponNumber: 46
+      weaponDISC: "\uC545\uC5B4\uB54C\uAC00\uB098\uC628\uB2E4~"
+      upgrade: 0
+      damage: 886293826262720000819200
+      price: 8862938262627200008192000
+    - Name: "\uCE74\uD0C0\uB098"
+      weaponNumber: 47
+      weaponDISC: "\uB208\uBCF4\uB2E4 \uBE60\uB974\uB2E4."
+      upgrade: 0
+      damage: 2658881535083155344588800
+      price: 26588815350831553445888000
+    - Name: "\uC8E0\uC2A4-\uBC14"
+      weaponNumber: 48
+      weaponDISC: "\uC0C1\uC5B4\uB9DB\uC774 \uB09C\uB2E4."
+      upgrade: 0
+      damage: 7976644154889503296716800
+      price: 79766441548895032967168000
+    - Name: "\uD1B1\uB0A0\uAC80"
+      weaponNumber: 49
+      weaponDISC: "\uC4F1\uC2F9\uC4F1\uC2F9~."
+      upgrade: 0
+      damage: 23929932464668509890150400
+      price: 239299324646685098901504000
+    - Name: "\uD3EC\uC774\uC98C \uCE7C"
+      weaponNumber: 50
+      weaponDISC: "\uBCA0\uC774\uC9C0 \uC54A\uAC8C \uC870\uC2EC\uD574\uC57C\uACA0\uB2E4."
+      upgrade: 0
+      damage: 71789799195445380618649600
+      price: 717897991954453806186496000
+    - Name: "\uD3EC\uC774\uC98C \uAC00\uC704 \uCE7C"
+      weaponNumber: 51
+      weaponDISC: "\uAC00\uBCCD\uB2E4."
+      upgrade: 0
+      damage: 215369397586336141855948800
+      price: 2153693975863361418559488000
+    - Name: "\uD3EC\uC774\uC98C \uC2A4\uC6CC\uB4DC"
+      weaponNumber: 52
+      weaponDISC: "\uAF2C\uBD88\uAF2C\uBD88."
+      upgrade: 0
+      damage: 646108163935970810396672000
+      price: 6461081639359708103966720000
+    - Name: "\uD3EC\uC774\uC98C \uC2AC\uB77C\uC774\uC2A4"
+      weaponNumber: 53
+      weaponDISC: "\uB9DB\uC0B4\uB85C \uB9CC\uB4E4\uC5B4\uBC84\uB9B0\uB2E4."
+      upgrade: 0
+      damage: 1938324607100062891874713600
+      price: 19383246071000628918747136000
+    - Name: "\uB9E4\uC9C1 \uD3EC\uC774\uC98C \uC2AC\uB77C\uC774\uC2A4"
+      weaponNumber: 54
+      weaponDISC: "\uB2FF\uB294\uC21C\uAC04 \uB179\uC544\uBC84\uB9B0\uB2E4."
+      upgrade: 0
+      damage: 5814973590715887754254745600
+      price: 58149735907158877542547456000
+    - Name: "\uD3EC\uC774\uC98C \uB871\uC18C\uB4DC"
+      weaponNumber: 55
+      weaponDISC: "\uACFC\uC77C\uCE7C\uB85C \uC801\uD569\uD558\uB2E4"
+      upgrade: 0
+      damage: 17444921694484866948241817600
+      price: 174449216944848669482418176000
+    - Name: "\uD3EC\uC774\uC98C \uAC74\uC2A4\uC6CC\uB4DC\uB9E8"
+      weaponNumber: 56
+      weaponDISC: "\uD754\uC801\uB3C4 \uB0A8\uAE30\uC9C0 \uC54A\uB294\uB2E4."
+      upgrade: 0
+      damage: 52334763238780193473770291200
+      price: 523347632387801934737702912000
+    - Name: "\uD640\uB9ACX \uCE7C\uB9AC\uBC84"
+      weaponNumber: 57
+      weaponDISC: "\uC8FC\uB2D8\uC774 \uC544\uB978\uAC70\uB9B0\uB2E4."
+      upgrade: 0
+      damage: 157004297095038209905131520000
+      price: 1570042970950382099051315200000
+    - Name: "\uBCBD\uB825\uC77C\uC12C"
+      weaponNumber: 58
+      weaponDISC: "\uC9DC\uB9BF\uD55C \uB9DB\uC744 \uBCFC\uC218\uC788\uB2E4."
+      upgrade: 0
+      damage: 471012876527719370747753267200
+      price: 4710128765277193707477532672000
+    - Name: "\uD751\uC5FC\uB8E1\uC758 \uC601\uD63C"
+      weaponNumber: 59
+      weaponDISC: "\uC870\uAE08 \uB0C4\uC0C8\uAC00 \uB09C\uB2E4."
+      upgrade: 0
+      damage: 1413038659097948630178542387200
+      price: 14130386590979486301785423872000
+    - Name: "\uC624\uC9D5\uC5B4\uCE7C\uB9AC\uBC84"
+      weaponNumber: 60
+      weaponDISC: "\uB9DB\uC774 \uC77C\uD488\uC774\uB2E4."
+      upgrade: 0
+      damage: 4239115859234683818794496819200
+      price: 42391158592346838187944968192000
+    - Name: "\uC911\uC138 \uAE30\uC0AC\uC758 \uD5EC\uBA67"
+      weaponNumber: 61
+      weaponDISC: "\uAC04\uC9C8\uAC04\uC9C8."
+      upgrade: 0
+      damage: 12717347105467403169418969088000
+      price: 127173471054674031694189690880000
+    - Name: "\uBEE0\uB080\uC18C\uB4DC"
+      weaponNumber: 62
+      weaponDISC: "\uC0C1\uB2F9\uD788 \uC544\uD504\uB2E4."
+      upgrade: 0
+      damage: 38152044149822099230044035481600
+      price: 381520441498220992300440354816000
+    - Name: "\uAC80\uC815\uB4DC\uB808\uACE4\uC758 \uC774\uBE68"
+      weaponNumber: 63
+      weaponDISC: "\uCDA9\uCE58\uAC00 \uC788\uB2E4."
+      upgrade: 0
+      damage: 114456124893679925098699764531200
+      price: 1144561248936799250986997645312000
+    - Name: "\uC2A4\uD50C\uB77C\uC778 \uC18C\uB4DC"
+      weaponNumber: 64
+      weaponDISC: "\uBE68\uAC04\uC0C9 \uC120\uC5D0\uC11C \uC5F4\uAE30\uB97C \uB0B4\uBFDC\uB294\uB2E4."
+      upgrade: 0
+      damage: 343368389792612520478963977420800
+      price: 3433683897926125204789639774208000
+    - Name: "\uB108\uD074\uC18C\uB4DC"
+      weaponNumber: 65
+      weaponDISC: "\uADFC\uC811\uC5D0\uC11C \uC2E0\uC18D\uD55C \uB300\uCC98\uB97C
+        \uD560\uC218\uC788\uB2E4."
+      upgrade: 0
+      damage: 1030105139154692071071162564608000
+      price: 10301051391546920710711625646080000
+    - Name: "\uACE0\uCD94\uBE14\uB808\uC774\uB4DC"
+      weaponNumber: 66
+      weaponDISC: "\uB9F5\uB2E4."
+      upgrade: 0
+      damage: 3090315417464076213213487693824000
+      price: 30903154174640762132134876938240000
+    - Name: "\uC7A5\uBBF8\uCE7C"
+      weaponNumber: 67
+      weaponDISC: "\uC9C4\uC9DC \uC7A5\uBBF8\uB85C \uB9CC\uB4E4\uC5C8\uB2E4."
+      upgrade: 0
+      damage: 9270946494177392562566298022707200
+      price: 92709464941773925625662980227072000
+    - Name: "\uC804\uAE30\uD1B1 \uBE14\uB808\uC774\uB4DC"
+      weaponNumber: 68
+      weaponDISC: "\uAC00\uB9CC\uD788 \uC788\uC5B4\uB3C4 \uC2F8\uC6B8\uC218 \uC788\uB2E4."
+      upgrade: 0
+      damage: 27812839482532177687698894068121600
+      price: 278128394825321776876988940681216000
+    - Name: "\uB1CC\uB8E1\uC2AC\uB808\uC774\uC5B4"
+      weaponNumber: 69
+      weaponDISC: "\uCFE0\uCF70\uCF85!"
+      upgrade: 0
+      damage: 83438520381877844446503361734246400
+      price: 834385203818778444465033617342464000
+    - Name: "\uD55C\uC870 \uB300\uAE30\uC911"
+      weaponNumber: 70
+      weaponDISC: "\uC6A9\uC758\uB208\uC73C\uB85C \uBD10\uB77C."
+      upgrade: 0
+      damage: 250315545671383042272256648963686400
+      price: 2503155456713830422722566489636864000
+    - Name: "\uC9C0\uC625\uCC28\uB95C\uB3C4"
+      weaponNumber: 71
+      weaponDISC: "\uBBF8\uC548\uD574\uC694 \uD560\uBC94."
+      upgrade: 0
+      damage: 750946621539898635749516510652006400
+      price: 7509466215398986357495165106520064000
+    - Name: "\uBC18\uC9DD\uBC18\uC9DD \uBC88\uAC1C\uB530\uB77C"
+      weaponNumber: 72
+      weaponDISC: "\uCC0C\uB9AC\uCC0C\uB9AC \uC9DC\uB77C\uC9DC\uB77C~"
+      upgrade: 0
+      damage: 2252839926516697871517563276912230400
+      price: 22528399265166978715175632769122304000
+    - Name: "\uC120\uD150\uBE14\uB808\uC774\uB4DC"
+      weaponNumber: 73
+      weaponDISC: "\uC139\uC2DC\uD574\uC9C4\uB2E4."
+      upgrade: 0
+      damage: 6758519779550093614552689830736691200
+      price: 67585197795500936145526898307366912000
+    - Name: "\uBC14\uB78C\uAC1C\uBE44"
+      weaponNumber: 74
+      weaponDISC: "\uC548\uB3CC\uC544\uAC04\uB2E4."
+      upgrade: 0
+      damage: 20275560329002312271962289411509452800
+      price: 202755603290023122719622894115094528000
+    - Name: "\uCD5C\uAC15\uC758\uAC80"
+      weaponNumber: 75
+      weaponDISC: "-/\uAC1C\uBC1C\uC790\uC6A9 \uAC80/-"
+      upgrade: 0
+      damage: 60826677025598811102669988557330841600
+      price: 608266770255988111026699885573308416000
+    Monster:
+    - Name: "\uAF2C\uB9C8\uC720\uB839"
+      monsterNumber: 0
+      monsterDISC: "\uADC0\uC5FD\uB2E4."
+      hp: 1000
+      gold: 400
+    - Name: "\uC815\uC815\uBC30\uD574\uACE8"
+      monsterNumber: 0
+      monsterDISC: "\uD53C\uACE4\uD574\uBCF4\uC778\uB2E4."
+      hp: 1000
+      gold: 400
+    - Name: "\uC81C\uD615\uC8FC\uD574\uACE8"
+      monsterNumber: 0
+      monsterDISC: "\uBAB8\uBE75\uC774 \uC815\uB9D0 \uC88B\uB2E4."
+      hp: 1000
+      gold: 600
+    - Name: "\uC6B0\uC218\uC548\uBAAC\uC2A4\uD130"
+      monsterNumber: 0
+      monsterDISC: "\uADC0\uC5FD\uB2E4."
+      hp: 1000
+      gold: 800
+    - Name: "\uC880\uB3C4\uB451 \uC81C\uC774\uC2A4"
+      monsterNumber: 0
+      monsterDISC: "\uC0DD\uAE34\uAC83\uACFC\uB294 \uC0C1\uBC18\uB418\uAC8C \uB9E4\uC6B0
+        \uBBFC\uCCA9\uD558\uB2E4."
+      hp: 1000
+      gold: 1000
+    - Name: "\uC2AC\uB77C\uC784"
+      monsterNumber: 0
+      monsterDISC: "\uC2AC\uB77C\uC784."
+      hp: 1000
+      gold: 400
+    - Name: "\uC2AC\uB77C\uC784 \uC81C\uC774\uC2A4"
+      monsterNumber: 0
+      monsterDISC: "\uC2AC\uB77C\uC784\uC774 \uC81C\uC774\uC2A4\uB97C \uC0BC\uCF30\uB2E4."
+      hp: 1000
+      gold: 600
+    - Name: "\uBBF8\uBBF9"
+      monsterNumber: 0
+      monsterDISC: "\uBCF4\uBB3C\uC0C1\uC790\uAC00 \uC544\uB2C8\uB2E4."
+      hp: 1000
+      gold: 1000
+    - Name: "\uB370\uBE4C \uCE74\uC774\uC800"
+      monsterNumber: 0
+      monsterDISC: "\uADC0\uC5FD\uB2E4."
+      hp: 1000
+      gold: 1000
+    - Name: "\uB204\uAD70\uAC00\uC758 \uC190"
+      monsterNumber: 0
+      monsterDISC: "\uC73D \uC9D5\uADF8\uB7EC\uC6CC!"
+      hp: 1000
+      gold: 200
+    - Name: "\uB204\uAD70\uAC00\uC758 \uBC1C"
+      monsterNumber: 0
+      monsterDISC: "\uC73D \uC9D5\uADF8\uB7EC\uC6CC!"
+      hp: 1000
+      gold: 200
+    - Name: "\uD3EC\uC774\uC98C \uC2AC\uB77C\uC784"
+      monsterNumber: 0
+      monsterDISC: "\uB2FF\uC73C\uBA74 \uB179\uC544\uBC84\uB9B0\uB2E4."
+      hp: 1000
+      gold: 800
+    - Name: "\uB208\uB208\uB208"
+      monsterNumber: 0
+      monsterDISC: "\uB208\uC774 \uC138\uAC1C\uB098 \uB41C\uB2E4."
+      hp: 1000
+      gold: 800
+    - Name: "\uC678\uB208\uBC15\uC774 \uC774\uD0DC\uC601"
+      monsterNumber: 0
+      monsterDISC: "\uB208\uC774 \uD55C\uAC1C\uB2E4."
+      hp: 1000
+      gold: 1000
+    - Name: "\uC678\uB208\uBC15\uC774 \uC774\uD0DC\uC601 2\uC138"
+      monsterNumber: 0
+      monsterDISC: "\uADC0\uC5FD\uB2E4."
+      hp: 1000
+      gold: 400
+    - Name: "\uC74C\uC4F0"
+      monsterNumber: 0
+      monsterDISC: "\uB0C4\uC0C8\uAC00 \uB09C\uB2E4."
+      hp: 1000
+      gold: 600
+    - Name: "\uAE40\uC138\uD604 \uBC29\uB791\uC790"
+      monsterNumber: 0
+      monsterDISC: "\uB9DD\uD1A0 \uC548\uC5D0\uB294 \uC544\uBB34\uAC83\uB3C4 \uC5C6\uB2E4."
+      hp: 1000
+      gold: 200
+    - Name: "\uB208\uC0AC\uB78C"
+      monsterNumber: 0
+      monsterDISC: "\uC544\uC774\uC2A4\uBC15\uC2A4\uC5D0\uC11C \uC654\uB2E4."
+      hp: 1000
+      gold: 1000
+    - Name: "\uC5BC\uC74C\uC815\uB839"
+      monsterNumber: 0
+      monsterDISC: "\uADC0\uC5FD\uB2E4."
+      hp: 1000
+      gold: 400
+    - Name: "\uC5BC\uC74C\uAC8C"
+      monsterNumber: 0
+      monsterDISC: "\uADC0\uC5FD\uB2E4."
+      hp: 1000
+      gold: 600
+  isRun: 1
+  backgroundSpeed: 0.4
+  playerAnimator: {fileID: 4537740407758387750}
+  saveImage: {fileID: 1577460347}
 --- !u!1 &1584778785
 GameObject:
   m_ObjectHideFlags: 0
@@ -14548,7 +14787,7 @@ Transform:
   m_LocalScale: {x: 21.582619, y: 21.582619, z: 21.582619}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1816721306
 MonoBehaviour:
@@ -14564,6 +14803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myTransform: {fileID: 0}
   speed: 2
+  hpBar: {fileID: 0}
 --- !u!1 &1820305741
 GameObject:
   m_ObjectHideFlags: 0
@@ -14628,7 +14868,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1823477412
 GameObject:
@@ -14725,6 +14965,42 @@ RectTransform:
   m_AnchoredPosition: {x: 476.25, y: -94.17001}
   m_SizeDelta: {x: 197.79999, y: 50.49}
   m_Pivot: {x: 1, y: 1}
+--- !u!1 &1830904164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830904165}
+  m_Layer: 5
+  m_Name: "\uAE30\uC900"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1830904165
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830904164}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 627335749}
+  m_Father: {fileID: 165270393}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 694.99023, y: 301}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1831469194
 GameObject:
   m_ObjectHideFlags: 0
@@ -14808,7 +15084,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1577460344}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 6
@@ -18190,7 +18466,7 @@ Transform:
   - {fileID: 4874791525963973}
   - {fileID: 1802368257}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4671523658487105
 Transform:
@@ -21059,6 +21335,9 @@ GameObject:
   - component: {fileID: 4537740407758387748}
   - component: {fileID: 4537740407758387751}
   - component: {fileID: 4537740407758387750}
+  - component: {fileID: 4537740407758387749}
+  - component: {fileID: 4537740407758387752}
+  - component: {fileID: 4537740407758387753}
   m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
@@ -21081,6 +21360,18 @@ Transform:
   m_Father: {fileID: 4537740408038249120}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4537740407758387749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537740407758387747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1394860380b505047aef991f9f57230b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &4537740407758387750
 Animator:
   serializedVersion: 3
@@ -21151,6 +21442,125 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4537740407758387752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537740407758387747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867ebe6c159995f4abe5346affe5b9c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 5880f865561718d498372ea6ce310d9c, type: 3}
+  - {fileID: 8300000, guid: 36193ff1feca9f5468dc5e53d444574e, type: 3}
+  - {fileID: 8300000, guid: 83f38b62072f4d344ac165a728941b05, type: 3}
+  - {fileID: 8300000, guid: 2b9e78eaf112fe142ade942d6fa8621f, type: 3}
+  - {fileID: 8300000, guid: 3fa31a2971ef45a4989bac2fed13cd08, type: 3}
+  - {fileID: 8300000, guid: 059a444d13c7d9643bdea5b75069f64d, type: 3}
+  - {fileID: 8300000, guid: a18012b1d726dd843907a0cdebffb909, type: 3}
+  - {fileID: 8300000, guid: 6d431ba76ac089142ab98609c7ef86c2, type: 3}
+  - {fileID: 8300000, guid: 191b8a40557818f40868afdfdd6586f1, type: 3}
+  - {fileID: 8300000, guid: b50b30a5e54579048806a6a11c5d4d17, type: 3}
+--- !u!82 &4537740407758387753
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537740407758387747}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -9180275855176544072, guid: 0df791a85a9c9a94fbed235381c65508, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.429
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &4537740408038249120
 Transform:
   m_ObjectHideFlags: 0
@@ -21164,7 +21574,7 @@ Transform:
   m_Children:
   - {fileID: 4537740407758387748}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4537740408038249147
 GameObject:

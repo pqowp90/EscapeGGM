@@ -9,5 +9,6 @@ public class Monster
     public int monsterNumber;
     public string monsterDISC;
     public string hp;
+    public string gold;
 }
 

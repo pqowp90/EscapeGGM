@@ -9,6 +9,7 @@ using CAH.GameSystem.BigNumber;
 
 public class GameManager : MonoSingleton<GameManager>
 {
+    public BigInteger playerDamage=10;
     public SpriteRenderer playerHand;
     private string SAVE_PATH = "";
     private string SAVE_FILENAME = "/SaveFile.txt";
@@ -35,7 +36,12 @@ public class GameManager : MonoSingleton<GameManager>
         //SaveToJson();
         LoadFromJsom();
         uiManager = GetComponent<UIManager>();
+        playerHand.sprite = saveImage.weaponSprites[user.weaponSet];
+        SetPlayerDamage();
         
+    }
+    public void SetPlayerDamage(){
+        playerDamage = BigInteger.Parse(user.Weapon[user.weaponSet].damage)+10;
     }
     public void Move(bool isMove){
         isRun = isMove;
