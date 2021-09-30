@@ -4,4 +4,5 @@ using UnityEngine;
 
 public class SaveImage : MonoBehaviour{
     public Sprite[] weaponSprites;
+    public Sprite[] monsterSprites;
 }

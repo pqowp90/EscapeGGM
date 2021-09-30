@@ -14,9 +14,13 @@ public class WeaponPanel : MonoBehaviour
     [SerializeField]
     private Text priceText=null;
     [SerializeField]
+    private Text damageText=null;
+    [SerializeField]
     private Text amountText=null;
     [SerializeField]
     private Button purchaseButton=null;
+    [SerializeField]
+    private Button mountingButton=null;
     private Weapon weapon = null;
     [SerializeField]
     private Image weaponImage = null;
@@ -26,7 +30,9 @@ public class WeaponPanel : MonoBehaviour
     private Text questionMark = null;
     [SerializeField]
     private SaveImage saveImage;
+    private Explanation explanation;
     private void Awake(){
+        explanation = FindObjectOfType<Explanation>();
         saveImage = FindObjectOfType<SaveImage>();
         InvokeRepeating("CanUpgrade",0f,1f);
     }
@@ -41,11 +47,19 @@ public class WeaponPanel : MonoBehaviour
 
         weaponNameText.text = (weapon.upgrade==0)?"???":weapon.Name;
         priceText.text = string.Format("{0}",BigIntegerManager.GetUnit(BigInteger.Parse(weapon.price)));
+        damageText.text = string.Format("공격력 : {0}",BigIntegerManager.GetUnit(BigInteger.Parse(weapon.damage)));
         amountText.text = string.Format("LV.{0}",weapon.upgrade);
         weaponImage.sprite = saveImage.weaponSprites[weapon.weaponNumber];
+
+        purchaseButton.transform.GetChild(0).GetComponent<Text>().text = (weapon.upgrade==0)?"구매":"강화";
     }
     private void CanUpgrade(){
         purchaseButton.interactable = BigInteger.Parse(weapon.price)<=GameManager.Instance.money;
+        mountingButton.interactable = weapon.upgrade>0;
+    }
+    public void SetWeapon(){
+        GameManager.Instance.CurrentUser.weaponSet = weapon.weaponNumber;
+        GameManager.Instance.playerHand.sprite = saveImage.weaponSprites[weapon.weaponNumber];
     }
     public void OnclickPurchase(){
         if(GameManager.Instance.money < BigInteger.Parse(weapon.price)){
@@ -58,5 +72,9 @@ public class WeaponPanel : MonoBehaviour
         GameManager.Instance.UI.UpdateEnergyPanel();
         UpdateUI();
         CanUpgrade();
+    }
+    public void ShowExplanation(){
+        StartCoroutine(explanation.ComeonExplanation(weaponNameText.transform.parent.parent,weaponImage.rectTransform.position,(weapon.upgrade==0)?"???":weapon.Name,(weapon.upgrade==0)?"??? ??? ???":weapon.weaponDISC));
+        
     }
 }

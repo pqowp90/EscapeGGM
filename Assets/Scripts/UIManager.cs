@@ -1,10 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Numerics;
 
 using CAH.GameSystem.BigNumber;
 public class UIManager : MonoBehaviour
 {
+    [SerializeField]
+    private bool isNew;
+    [SerializeField]
+    private Transform noyes;
     [SerializeField]
     private Text energyText = null;
     [SerializeField]
@@ -22,8 +27,13 @@ public class UIManager : MonoBehaviour
     private Transform pool = null;
     [SerializeField]
     private GameObject[] uis;
+    [SerializeField]
+    private ScrollManager scrollManager;
+    [SerializeField]
+    private MonsterManager monsterManager;
     void Start()
     {
+        monsterManager = FindObjectOfType<MonsterManager>();
         UpdateEnergyPanel();
         CreatPanels();
     }
@@ -34,8 +44,13 @@ public class UIManager : MonoBehaviour
         foreach(Soldier soldier in GameManager.Instance.CurrentUser.solderList){
             newPanel = Instantiate(upgreadPanelTemplate,upgreadPanelTemplate.transform.parent);
             newPanelComponent = newPanel.GetComponent<UpgreadePanel>();
-            soldier.soldierNumber = i;
-            soldier.upgrade = 0;
+            if(isNew){
+                soldier.soldierNumber = i;
+                soldier.upgrade = 0;
+            }
+            if(soldier.upgrade>0){
+                noyes.GetChild(i).gameObject.SetActive(true);
+            }
             newPanelComponent.SetValue(soldier);
             newPanel.SetActive(true);
             i++;
@@ -43,19 +58,27 @@ public class UIManager : MonoBehaviour
         i=0;
         WeaponPanel newPanelComponent2 = null;
         foreach(Weapon weapon in GameManager.Instance.CurrentUser.Weapon){
+            
             newPanel = Instantiate(upgreadPanelTemplate2,upgreadPanelTemplate2.transform.parent);
             newPanelComponent2 = newPanel.GetComponent<WeaponPanel>();
-            weapon.weaponNumber = i;
-            weapon.upgrade = 0;
+            if(isNew){
+                weapon.weaponNumber = i;
+                weapon.upgrade = (i==0)?1:0;
+                weapon.damage = ((BigInteger)100*(BigInteger)Mathf.Pow(3,i)).ToString();
+            }
             newPanelComponent2.SetValue(weapon);
             newPanel.SetActive(true);
             i++;
         }
+        if(scrollManager!=null)
+            scrollManager.GetUi();
     }
     public void OnClickBeaker(){
+        if(GameManager.Instance.isRun)return;
         GameManager.Instance.money +=  GameManager.Instance.ePC;
         UpdateEnergyPanel();
         beakerAnimator.SetTrigger("atk");
+        monsterManager.HitBaby();
         //Invoke("Bbok",0.1f);
         
     }

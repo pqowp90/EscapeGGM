@@ -10,6 +10,8 @@ using CAH.GameSystem.BigNumber;
 public class UpgreadePanel : MonoBehaviour
 {
     [SerializeField]
+    private Transform noyes;
+    [SerializeField]
     private Text soldierNameText=null;
     [SerializeField]
     private Text priceText=null;
@@ -35,6 +37,9 @@ public class UpgreadePanel : MonoBehaviour
         UpdateUI();
     }
     public void UpdateUI(){
+        if(soldier.upgrade>0){
+            noyes.GetChild(soldier.soldierNumber).gameObject.SetActive(true);
+        }
         blackImage.gameObject.SetActive(soldier.upgrade==0);
         questionMark.gameObject.SetActive(soldier.upgrade==0);
 

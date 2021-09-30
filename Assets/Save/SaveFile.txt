@@ -1,39 +1,40 @@
 ﻿{
     "userName": "",
-    "money": "9046850",
+    "money": "999999999999999999999999999999999999999999999999999999999999999999878959998599400256",
     "ePC": "0",
+    "weaponSet": 62,
     "solderList": [
         {
             "soldierNumber": 0,
             "solderName": "스네이크권 계승자 민준",
             "solderDISC": "",
-            "upgrade": 0,
+            "upgrade": 1,
             "ePs": "1",
-            "price": "100000000"
+            "price": "600000"
         },
         {
             "soldierNumber": 1,
             "solderName": "졸렬한 마법사 어시온",
             "solderDISC": "",
-            "upgrade": 0,
+            "upgrade": 1,
             "ePs": "1",
-            "price": "4425722"
+            "price": "1400000000"
         },
         {
             "soldierNumber": 2,
             "solderName": "분노조절잘해 수안",
             "solderDISC": "",
-            "upgrade": 0,
+            "upgrade": 1,
             "ePs": "1",
-            "price": "4387596"
+            "price": "40000000000000"
         },
         {
             "soldierNumber": 3,
             "solderName": "독재자 태영",
             "solderDISC": "",
-            "upgrade": 0,
+            "upgrade": 1,
             "ePs": "1",
-            "price": "6013007"
+            "price": "121000000000000000"
         }
     ],
     "Weapon": [
@@ -41,8 +42,8 @@
             "Name": "나무검",
             "weaponNumber": 0,
             "weaponDISC": "나무로 만든 검이다.",
-            "upgrade": 0,
-            "damage": "0",
+            "upgrade": 1,
+            "damage": "100",
             "price": "0"
         },
         {
@@ -50,7 +51,7 @@
             "weaponNumber": 1,
             "weaponDISC": "나무로 만든 창이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "300",
             "price": "0"
         },
         {
@@ -58,7 +59,7 @@
             "weaponNumber": 2,
             "weaponDISC": "나무로 만든 도끼다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "900",
             "price": "0"
         },
         {
@@ -66,7 +67,7 @@
             "weaponNumber": 3,
             "weaponDISC": "견습기사 문강혁이 쓰던 칼이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "2700",
             "price": "0"
         },
         {
@@ -74,7 +75,7 @@
             "weaponNumber": 4,
             "weaponDISC": "철로만든 검이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "8100",
             "price": "0"
         },
         {
@@ -82,7 +83,7 @@
             "weaponNumber": 5,
             "weaponDISC": "맞으면 뼈도 못추릴것 같다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "24300",
             "price": "0"
         },
         {
@@ -90,7 +91,7 @@
             "weaponNumber": 6,
             "weaponDISC": "비룡이 쓰던 칼이라는 소문이 있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "72900",
             "price": "0"
         },
         {
@@ -98,7 +99,7 @@
             "weaponNumber": 7,
             "weaponDISC": "아주 잘 썰린다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "218700",
             "price": "0"
         },
         {
@@ -106,7 +107,7 @@
             "weaponNumber": 8,
             "weaponDISC": "던지면 다시 돌아올것처럼 생겼다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "656100",
             "price": "0"
         },
         {
@@ -114,7 +115,7 @@
             "weaponNumber": 9,
             "weaponDISC": "반달모양의 검이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1968300",
             "price": "0"
         },
         {
@@ -122,7 +123,7 @@
             "weaponNumber": 10,
             "weaponDISC": "도끼같지만 칼이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "5904900",
             "price": "0"
         },
         {
@@ -130,7 +131,7 @@
             "weaponNumber": 11,
             "weaponDISC": "견고합니다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "17714700",
             "price": "0"
         },
         {
@@ -138,7 +139,7 @@
             "weaponNumber": 12,
             "weaponDISC": "매직 스톤이 박혀있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "53144100",
             "price": "0"
         },
         {
@@ -146,7 +147,7 @@
             "weaponNumber": 13,
             "weaponDISC": "멋쟁이.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "159432300",
             "price": "0"
         },
         {
@@ -154,7 +155,7 @@
             "weaponNumber": 14,
             "weaponDISC": "아주 가볍다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "478296900",
             "price": "0"
         },
         {
@@ -162,7 +163,7 @@
             "weaponNumber": 15,
             "weaponDISC": "지느러미가 두개 달려있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1434890700",
             "price": "0"
         },
         {
@@ -170,7 +171,7 @@
             "weaponNumber": 16,
             "weaponDISC": "닭다리에 얼음이 얼었다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "4304672000",
             "price": "0"
         },
         {
@@ -178,7 +179,7 @@
             "weaponNumber": 17,
             "weaponDISC": "엄마가 쓰는 칼이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "12914016000",
             "price": "0"
         },
         {
@@ -186,7 +187,7 @@
             "weaponNumber": 18,
             "weaponDISC": "손잡이에 칼날이 달려있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "38742048000",
             "price": "0"
         },
         {
@@ -194,7 +195,7 @@
             "weaponNumber": 19,
             "weaponDISC": "마법은 안나오지만 마법같이 아프다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "116226150400",
             "price": "0"
         },
         {
@@ -202,7 +203,7 @@
             "weaponNumber": 20,
             "weaponDISC": "마체테.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "348678451200",
             "price": "0"
         },
         {
@@ -210,7 +211,7 @@
             "weaponNumber": 21,
             "weaponDISC": "뽀로로를 갈아서 만들었다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1046035353600",
             "price": "0"
         },
         {
@@ -218,7 +219,7 @@
             "weaponNumber": 22,
             "weaponDISC": "상어 지느러미처럼 생겼다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "3138105958400",
             "price": "0"
         },
         {
@@ -226,7 +227,7 @@
             "weaponNumber": 23,
             "weaponDISC": "엘리자베스 여왕이 썼다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "9414317670400",
             "price": "0"
         },
         {
@@ -234,7 +235,7 @@
             "weaponNumber": 24,
             "weaponDISC": "날이 두개다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "28242952192000",
             "price": "0"
         },
         {
@@ -242,7 +243,7 @@
             "weaponNumber": 25,
             "weaponDISC": "뱀이다~뱀이다~",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "84728859852800",
             "price": "0"
         },
         {
@@ -250,7 +251,7 @@
             "weaponNumber": 26,
             "weaponDISC": "홀리..",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "254186592665600",
             "price": "0"
         },
         {
@@ -258,7 +259,7 @@
             "weaponNumber": 27,
             "weaponDISC": "부려졌다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "762559751782400",
             "price": "0"
         },
         {
@@ -266,7 +267,7 @@
             "weaponNumber": 28,
             "weaponDISC": "손에서 피가난다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "2287679307776000",
             "price": "0"
         },
         {
@@ -274,7 +275,7 @@
             "weaponNumber": 29,
             "weaponDISC": "총.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "6863037713612800",
             "price": "0"
         },
         {
@@ -282,7 +283,7 @@
             "weaponNumber": 30,
             "weaponDISC": "코딱지를 모아봤다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "20589113560268800",
             "price": "0"
         },
         {
@@ -290,7 +291,7 @@
             "weaponNumber": 31,
             "weaponDISC": "찢어진 한민영의 팬티를 감았다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "61767340680806400",
             "price": "0"
         },
         {
@@ -298,7 +299,7 @@
             "weaponNumber": 32,
             "weaponDISC": "반짝반짝.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "185302015331532800",
             "price": "0"
         },
         {
@@ -306,7 +307,7 @@
             "weaponNumber": 33,
             "weaponDISC": "김씨인데 왜 테드창인지 모르겠다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "555906045994598400",
             "price": "0"
         },
         {
@@ -314,7 +315,7 @@
             "weaponNumber": 34,
             "weaponDISC": "시간을 돌려서 또 때린다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1667718191670886400",
             "price": "0"
         },
         {
@@ -322,7 +323,7 @@
             "weaponNumber": 35,
             "weaponDISC": "커다란 수박하나 잘익었나 통통통!",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "5003154575012659200",
             "price": "0"
         },
         {
@@ -330,7 +331,7 @@
             "weaponNumber": 36,
             "weaponDISC": "핑크색이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "15009464154534707200",
             "price": "0"
         },
         {
@@ -338,7 +339,7 @@
             "weaponNumber": 37,
             "weaponDISC": "옆면으로 때리면 더 아프다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "45028389027630284800",
             "price": "0"
         },
         {
@@ -346,7 +347,7 @@
             "weaponNumber": 38,
             "weaponDISC": "윙가르디오 레비오우싸~",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "135085173954838528000",
             "price": "0"
         },
         {
@@ -354,7 +355,7 @@
             "weaponNumber": 39,
             "weaponDISC": "어이쿠 손이 미끄러졌네~",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "405255521864515584000",
             "price": "0"
         },
         {
@@ -362,7 +363,7 @@
             "weaponNumber": 40,
             "weaponDISC": "왕을 지킨다!",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1215766510617965363200",
             "price": "0"
         },
         {
@@ -370,7 +371,7 @@
             "weaponNumber": 41,
             "weaponDISC": "민트향이난다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "3647299531853896089600",
             "price": "0"
         },
         {
@@ -378,7 +379,7 @@
             "weaponNumber": 42,
             "weaponDISC": "냐미~",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "10941899035366339379200",
             "price": "0"
         },
         {
@@ -386,7 +387,7 @@
             "weaponNumber": 43,
             "weaponDISC": "싹다불태워라~",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "32825696226489715916800",
             "price": "0"
         },
         {
@@ -394,7 +395,7 @@
             "weaponNumber": 44,
             "weaponDISC": "살아있는 검이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "98477088679469147750400",
             "price": "0"
         },
         {
@@ -402,7 +403,7 @@
             "weaponNumber": 45,
             "weaponDISC": "영혼을 뺏어간다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "295431266038407443251200",
             "price": "0"
         },
         {
@@ -410,7 +411,7 @@
             "weaponNumber": 46,
             "weaponDISC": "악어때가나온다~",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "886293826262720000819200",
             "price": "0"
         },
         {
@@ -418,7 +419,7 @@
             "weaponNumber": 47,
             "weaponDISC": "눈보다 빠르다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "2658881535083155344588800",
             "price": "0"
         },
         {
@@ -426,7 +427,7 @@
             "weaponNumber": 48,
             "weaponDISC": "상어맛이 난다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "7976644154889503296716800",
             "price": "0"
         },
         {
@@ -434,7 +435,7 @@
             "weaponNumber": 49,
             "weaponDISC": "쓱싹쓱싹~.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "23929932464668509890150400",
             "price": "0"
         },
         {
@@ -442,7 +443,7 @@
             "weaponNumber": 50,
             "weaponDISC": "베이지 않게 조심해야겠다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "71789799195445380618649600",
             "price": "0"
         },
         {
@@ -450,7 +451,7 @@
             "weaponNumber": 51,
             "weaponDISC": "가볍다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "215369397586336141855948800",
             "price": "0"
         },
         {
@@ -458,7 +459,7 @@
             "weaponNumber": 52,
             "weaponDISC": "꼬불꼬불.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "646108163935970810396672000",
             "price": "0"
         },
         {
@@ -466,7 +467,7 @@
             "weaponNumber": 53,
             "weaponDISC": "맛살로 만들어버린다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1938324607100062891874713600",
             "price": "0"
         },
         {
@@ -474,7 +475,7 @@
             "weaponNumber": 54,
             "weaponDISC": "닿는순간 녹아버린다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "5814973590715887754254745600",
             "price": "0"
         },
         {
@@ -482,7 +483,7 @@
             "weaponNumber": 55,
             "weaponDISC": "과일칼로 적합하다",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "17444921694484866948241817600",
             "price": "0"
         },
         {
@@ -490,7 +491,7 @@
             "weaponNumber": 56,
             "weaponDISC": "흔적도 남기지 않는다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "52334763238780193473770291200",
             "price": "0"
         },
         {
@@ -498,7 +499,7 @@
             "weaponNumber": 57,
             "weaponDISC": "주님이 아른거린다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "157004297095038209905131520000",
             "price": "0"
         },
         {
@@ -506,7 +507,7 @@
             "weaponNumber": 58,
             "weaponDISC": "짜릿한 맛을 볼수있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "471012876527719370747753267200",
             "price": "0"
         },
         {
@@ -514,7 +515,7 @@
             "weaponNumber": 59,
             "weaponDISC": "조금 냄새가 난다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1413038659097948630178542387200",
             "price": "0"
         },
         {
@@ -522,7 +523,7 @@
             "weaponNumber": 60,
             "weaponDISC": "맛이 일품이다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "4239115859234683818794496819200",
             "price": "0"
         },
         {
@@ -530,7 +531,7 @@
             "weaponNumber": 61,
             "weaponDISC": "간질간질.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "12717347105467403169418969088000",
             "price": "0"
         },
         {
@@ -538,7 +539,7 @@
             "weaponNumber": 62,
             "weaponDISC": "상당히 아프다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "38152044149822099230044035481600",
             "price": "0"
         },
         {
@@ -546,7 +547,7 @@
             "weaponNumber": 63,
             "weaponDISC": "충치가 있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "114456124893679925098699764531200",
             "price": "0"
         },
         {
@@ -554,7 +555,7 @@
             "weaponNumber": 64,
             "weaponDISC": "빨간색 선에서 열기를 내뿜는다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "343368389792612520478963977420800",
             "price": "0"
         },
         {
@@ -562,7 +563,7 @@
             "weaponNumber": 65,
             "weaponDISC": "근접에서 신속한 대처를 할수있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "1030105139154692071071162564608000",
             "price": "0"
         },
         {
@@ -570,72 +571,88 @@
             "weaponNumber": 66,
             "weaponDISC": "맵다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "3090315417464076213213487693824000",
+            "price": "0"
+        },
+        {
+            "Name": "장미칼",
+            "weaponNumber": 67,
+            "weaponDISC": "진짜 장미로 만들었다.",
+            "upgrade": 0,
+            "damage": "9270946494177392562566298022707200",
             "price": "0"
         },
         {
             "Name": "전기톱 블레이드",
-            "weaponNumber": 67,
+            "weaponNumber": 68,
             "weaponDISC": "가만히 있어도 싸울수 있다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "27812839482532177687698894068121600",
             "price": "0"
         },
         {
             "Name": "뇌룡슬레이어",
-            "weaponNumber": 68,
+            "weaponNumber": 69,
             "weaponDISC": "쿠콰쾅!",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "83438520381877844446503361734246400",
             "price": "0"
         },
         {
             "Name": "한조 대기중",
-            "weaponNumber": 69,
+            "weaponNumber": 70,
             "weaponDISC": "용의눈으로 봐라.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "250315545671383042272256648963686400",
             "price": "0"
         },
         {
             "Name": "지옥차륜도",
-            "weaponNumber": 70,
+            "weaponNumber": 71,
             "weaponDISC": "미안해요 할범.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "750946621539898635749516510652006400",
             "price": "0"
         },
         {
             "Name": "반짝반짝 번개따라",
-            "weaponNumber": 71,
+            "weaponNumber": 72,
             "weaponDISC": "찌리찌리 짜라짜라~",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "2252839926516697871517563276912230400",
             "price": "0"
         },
         {
             "Name": "선텐블레이드",
-            "weaponNumber": 72,
+            "weaponNumber": 73,
             "weaponDISC": "섹시해진다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "6758519779550093614552689830736691200",
             "price": "0"
         },
         {
             "Name": "바람개비",
-            "weaponNumber": 73,
+            "weaponNumber": 74,
             "weaponDISC": "안돌아간다.",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "20275560329002312271962289411509452800",
             "price": "0"
         },
         {
             "Name": "최강의검",
-            "weaponNumber": 74,
+            "weaponNumber": 75,
             "weaponDISC": "-/개발자용 검/-",
             "upgrade": 0,
-            "damage": "0",
+            "damage": "60826677025598811102669988557330841600",
             "price": "0"
+        }
+    ],
+    "Monster": [
+        {
+            "Name": "꼬마유령",
+            "monsterNumber": 0,
+            "monsterDISC": "귀엽다.",
+            "hp": ""
         }
     ]
 }

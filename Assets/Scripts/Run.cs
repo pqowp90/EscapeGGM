@@ -6,7 +6,6 @@ public class Run : MonoBehaviour
 {
     void Start()
     {
-        Debug.Log(GetComponent<SpriteRenderer>().bounds.size.x);
     }
 
     void Update()

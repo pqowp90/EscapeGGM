@@ -9,6 +9,7 @@ using CAH.GameSystem.BigNumber;
 
 public class GameManager : MonoSingleton<GameManager>
 {
+    public SpriteRenderer playerHand;
     private string SAVE_PATH = "";
     private string SAVE_FILENAME = "/SaveFile.txt";
     [SerializeField]
@@ -25,7 +26,6 @@ public class GameManager : MonoSingleton<GameManager>
     private void Awake()
     {
         saveImage = GetComponent<SaveImage>();
-        //Debug.Log(BigInteger.Pow(1000, 3).ToString());
         SAVE_PATH = Application.dataPath+"/Save";//persistentDataPath
         if(!Directory.Exists(SAVE_PATH)){
             Directory.CreateDirectory(SAVE_PATH);
@@ -56,10 +56,13 @@ public class GameManager : MonoSingleton<GameManager>
             json = File.ReadAllText(SAVE_PATH+SAVE_FILENAME);
             user = JsonUtility.FromJson<User>(json);
             
+        }else{
+            SaveToJson();
         }
         ePC=BigInteger.Parse(user.ePC);
         money=BigInteger.Parse(user.money);
     }
+    
     private void SaveToJson(){
         user.money = money.ToString();
         user.ePC = ePC.ToString();
