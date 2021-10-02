@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-
+using System.Numerics;
+using CAH.GameSystem.BigNumber;
 public class EnergyText : MonoBehaviour
 {
     private Text energyText = null;
@@ -9,13 +10,14 @@ public class EnergyText : MonoBehaviour
     private Canvas canvas = null;
     [SerializeField]
     private Transform pool = null;
-    public void Show(Vector2 mousePos){
+    public void Show(UnityEngine.Vector2 mousePos,BigInteger money){
+        mousePos = Camera.main.WorldToScreenPoint(mousePos);
         energyText = GetComponent<Text>();
-        energyText.text = string.Format("+{0}",GameManager.Instance.CurrentUser.ePC);
+        energyText.text = string.Format("+{0}",BigIntegerManager.GetUnit(money));
 
         transform.SetParent(canvas.transform);
         transform.position = Camera.main.ScreenToWorldPoint(mousePos);
-        transform.position = new Vector3(transform.position.x,transform.position.y,0f);
+        transform.position = new UnityEngine.Vector3(transform.position.x,transform.position.y,0f);
         gameObject.SetActive(true);
 
 

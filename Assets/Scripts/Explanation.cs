@@ -36,9 +36,11 @@ public class Explanation : MonoBehaviour
         nameText.text = name;
         explanationText.text = explanation;
         yield return new WaitForSeconds(2f);
-        image.DOFade(0f,1f);
-        nameText.DOFade(0f,1f);
-        explanationText.DOFade(0f,1f);
-        showing=false;
+        if(showing){
+            image.DOFade(0f,1f);
+            nameText.DOFade(0f,1f);
+            explanationText.DOFade(0f,1f);
+            showing=false;
+        }
     }
 }

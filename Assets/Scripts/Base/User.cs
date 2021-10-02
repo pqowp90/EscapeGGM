@@ -10,5 +10,6 @@ public class User
     public int progress;
     public List<Soldier> solderList = new List<Soldier>();
     public List<Weapon> Weapon = new List<Weapon>();
+    public List<myStat> myStat = new List<myStat>();
     public List<Monster> Monster = new List<Monster>();
 }

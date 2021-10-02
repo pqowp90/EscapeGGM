@@ -1,9 +1,9 @@
 ﻿{
     "userName": "",
-    "money": "308377404021678269539430399",
+    "money": "3250",
     "ePC": "0",
     "weaponSet": 0,
-    "progress": 122,
+    "progress": 14,
     "solderList": [
         {
             "soldierNumber": 0,
@@ -11,7 +11,8 @@
             "solderDISC": "",
             "upgrade": 0,
             "ePs": "1",
-            "price": "600000"
+            "price": "600000",
+            "damage": ""
         },
         {
             "soldierNumber": 1,
@@ -19,7 +20,8 @@
             "solderDISC": "",
             "upgrade": 0,
             "ePs": "1",
-            "price": "1400000000"
+            "price": "1400000000",
+            "damage": ""
         },
         {
             "soldierNumber": 2,
@@ -27,7 +29,8 @@
             "solderDISC": "",
             "upgrade": 0,
             "ePs": "1",
-            "price": "40000000000000"
+            "price": "40000000000000",
+            "damage": ""
         },
         {
             "soldierNumber": 3,
@@ -35,7 +38,8 @@
             "solderDISC": "",
             "upgrade": 0,
             "ePs": "1",
-            "price": "121000000000000000"
+            "price": "121000000000000000",
+            "damage": ""
         }
     ],
     "Weapon": [
@@ -43,49 +47,49 @@
             "Name": "나무검",
             "weaponNumber": 0,
             "weaponDISC": "나무로 만든 검이다.",
-            "upgrade": 7,
-            "damage": "264",
-            "price": "2964"
+            "upgrade": 1,
+            "damage": "100",
+            "price": "1000"
         },
         {
             "Name": "나무창",
             "weaponNumber": 1,
             "weaponDISC": "나무로 만든 창이다.",
-            "upgrade": 3,
-            "damage": "516",
-            "price": "5184"
+            "upgrade": 0,
+            "damage": "300",
+            "price": "3000"
         },
         {
             "Name": "나무도끼",
             "weaponNumber": 2,
             "weaponDISC": "나무로 만든 도끼다.",
-            "upgrade": 2,
-            "damage": "1296",
-            "price": "12960"
+            "upgrade": 0,
+            "damage": "900",
+            "price": "9000"
         },
         {
             "Name": "견습기사의 검",
             "weaponNumber": 3,
             "weaponDISC": "견습기사 문강혁이 쓰던 칼이다.",
-            "upgrade": 1,
-            "damage": "3240",
-            "price": "32400"
+            "upgrade": 0,
+            "damage": "2700",
+            "price": "27000"
         },
         {
             "Name": "철검",
             "weaponNumber": 4,
             "weaponDISC": "철로만든 검이다.",
-            "upgrade": 1,
-            "damage": "9720",
-            "price": "97200"
+            "upgrade": 0,
+            "damage": "8100",
+            "price": "81000"
         },
         {
             "Name": "무시무시한",
             "weaponNumber": 5,
             "weaponDISC": "맞으면 뼈도 못추릴것 같다.",
-            "upgrade": 1,
-            "damage": "29160",
-            "price": "291600"
+            "upgrade": 0,
+            "damage": "24300",
+            "price": "243000"
         },
         {
             "Name": "비룡도",
@@ -251,217 +255,217 @@
             "Name": "한방에주님곁으로",
             "weaponNumber": 26,
             "weaponDISC": "홀리..",
-            "upgrade": 1,
-            "damage": "305023911198720",
-            "price": "3050239111987200"
+            "upgrade": 0,
+            "damage": "254186592665600",
+            "price": "2541865926656000"
         },
         {
             "Name": "부러진 검",
             "weaponNumber": 27,
             "weaponDISC": "부려졌다.",
-            "upgrade": 1,
-            "damage": "915071702138880",
-            "price": "9150717021388800"
+            "upgrade": 0,
+            "damage": "762559751782400",
+            "price": "7625597517824000"
         },
         {
             "Name": "식빵손베었다",
             "weaponNumber": 28,
             "weaponDISC": "손에서 피가난다.",
-            "upgrade": 1,
-            "damage": "2745215169331200",
-            "price": "27452151693312000"
+            "upgrade": 0,
+            "damage": "2287679307776000",
+            "price": "22876793077760000"
         },
         {
             "Name": "그냥총",
             "weaponNumber": 29,
             "weaponDISC": "총.",
-            "upgrade": 1,
-            "damage": "8235645256335360",
-            "price": "82356452563353600"
+            "upgrade": 0,
+            "damage": "6863037713612800",
+            "price": "68630377136128000"
         },
         {
             "Name": "코딱지칼",
             "weaponNumber": 30,
             "weaponDISC": "코딱지를 모아봤다.",
-            "upgrade": 1,
-            "damage": "24706936272322560",
-            "price": "247069362723225600"
+            "upgrade": 0,
+            "damage": "20589113560268800",
+            "price": "205891135602688000"
         },
         {
             "Name": "한민영팬티칼",
             "weaponNumber": 31,
             "weaponDISC": "찢어진 한민영의 팬티를 감았다.",
-            "upgrade": 1,
-            "damage": "74120808816967680",
-            "price": "741208088169676800"
+            "upgrade": 0,
+            "damage": "61767340680806400",
+            "price": "617673406808064000"
         },
         {
             "Name": "윤이나는칼",
             "weaponNumber": 32,
             "weaponDISC": "반짝반짝.",
-            "upgrade": 1,
-            "damage": "222362418397839360",
-            "price": "2223624183978393600"
+            "upgrade": 0,
+            "damage": "185302015331532800",
+            "price": "1853020153315328000"
         },
         {
             "Name": "테드창",
             "weaponNumber": 33,
             "weaponDISC": "김씨인데 왜 테드창인지 모르겠다.",
-            "upgrade": 1,
-            "damage": "667087255193518080",
-            "price": "6670872551935180800"
+            "upgrade": 0,
+            "damage": "555906045994598400",
+            "price": "5559060459945984000"
         },
         {
             "Name": "스탑 블레이드",
             "weaponNumber": 34,
             "weaponDISC": "시간을 돌려서 또 때린다.",
-            "upgrade": 1,
-            "damage": "2001261830005063680",
-            "price": "20012618300050636800"
+            "upgrade": 0,
+            "damage": "1667718191670886400",
+            "price": "16677181916708864000"
         },
         {
             "Name": "수박바",
             "weaponNumber": 35,
             "weaponDISC": "커다란 수박하나 잘익었나 통통통!",
-            "upgrade": 1,
-            "damage": "6003785490015191040",
-            "price": "60037854900151910400"
+            "upgrade": 0,
+            "damage": "5003154575012659200",
+            "price": "50031545750126592000"
         },
         {
             "Name": "고민정의 사탕",
             "weaponNumber": 36,
             "weaponDISC": "핑크색이다.",
-            "upgrade": 1,
-            "damage": "18011356985441648640",
-            "price": "180113569854416486400"
+            "upgrade": 0,
+            "damage": "15009464154534707200",
+            "price": "150094641545347072000"
         },
         {
             "Name": "철썩!",
             "weaponNumber": 37,
             "weaponDISC": "옆면으로 때리면 더 아프다.",
-            "upgrade": 1,
-            "damage": "54034066833156341760",
-            "price": "540340668331563417600"
+            "upgrade": 0,
+            "damage": "45028389027630284800",
+            "price": "450283890276302848000"
         },
         {
             "Name": "요정도~",
             "weaponNumber": 38,
             "weaponDISC": "윙가르디오 레비오우싸~",
-            "upgrade": 1,
-            "damage": "162102208745806233600",
-            "price": "1621022087458062336000"
+            "upgrade": 0,
+            "damage": "135085173954838528000",
+            "price": "1350851739548385280000"
         },
         {
             "Name": "대장장이 제형주의 명검",
             "weaponNumber": 39,
             "weaponDISC": "어이쿠 손이 미끄러졌네~",
-            "upgrade": 1,
-            "damage": "486306626237418700800",
-            "price": "4863066262374187008000"
+            "upgrade": 0,
+            "damage": "405255521864515584000",
+            "price": "4052555218645155840000"
         },
         {
             "Name": "성기사의 검",
             "weaponNumber": 40,
             "weaponDISC": "왕을 지킨다!",
-            "upgrade": 1,
-            "damage": "1458919812741558435840",
-            "price": "14589198127415584358400"
+            "upgrade": 0,
+            "damage": "1215766510617965363200",
+            "price": "12157665106179653632000"
         },
         {
             "Name": "아구몬의 입냄새",
             "weaponNumber": 41,
             "weaponDISC": "민트향이난다.",
-            "upgrade": 1,
-            "damage": "4376759438224675307520",
-            "price": "43767594382246753075200"
+            "upgrade": 0,
+            "damage": "3647299531853896089600",
+            "price": "36472995318538960896000"
         },
         {
             "Name": "청포도 먹을래?",
             "weaponNumber": 42,
             "weaponDISC": "냐미~",
-            "upgrade": 1,
-            "damage": "13130278842439607255040",
-            "price": "131302788424396072550400"
+            "upgrade": 0,
+            "damage": "10941899035366339379200",
+            "price": "109418990353663393792000"
         },
         {
             "Name": "플레임완드",
             "weaponNumber": 43,
             "weaponDISC": "싹다불태워라~",
-            "upgrade": 1,
-            "damage": "39390835471787659100160",
-            "price": "393908354717876591001600"
+            "upgrade": 0,
+            "damage": "32825696226489715916800",
+            "price": "328256962264897159168000"
         },
         {
             "Name": "제임스",
             "weaponNumber": 44,
             "weaponDISC": "살아있는 검이다.",
-            "upgrade": 1,
-            "damage": "118172506415362977300480",
-            "price": "1181725064153629773004800"
+            "upgrade": 0,
+            "damage": "98477088679469147750400",
+            "price": "984770886794691477504000"
         },
         {
             "Name": "사신의 낫",
             "weaponNumber": 45,
             "weaponDISC": "영혼을 뺏어간다.",
-            "upgrade": 1,
-            "damage": "354517519246088931901440",
-            "price": "3545175192460889319014400"
+            "upgrade": 0,
+            "damage": "295431266038407443251200",
+            "price": "2954312660384074432512000"
         },
         {
             "Name": "크록스",
             "weaponNumber": 46,
             "weaponDISC": "악어때가나온다~",
-            "upgrade": 1,
-            "damage": "1063552591515264000983040",
-            "price": "10635525915152640009830400"
+            "upgrade": 0,
+            "damage": "886293826262720000819200",
+            "price": "8862938262627200008192000"
         },
         {
             "Name": "카타나",
             "weaponNumber": 47,
             "weaponDISC": "눈보다 빠르다.",
-            "upgrade": 1,
-            "damage": "3190657842099786413506560",
-            "price": "31906578420997864135065600"
+            "upgrade": 0,
+            "damage": "2658881535083155344588800",
+            "price": "26588815350831553445888000"
         },
         {
             "Name": "죠스-바",
             "weaponNumber": 48,
             "weaponDISC": "상어맛이 난다.",
-            "upgrade": 1,
-            "damage": "9571972985867403956060160",
-            "price": "95719729858674039560601600"
+            "upgrade": 0,
+            "damage": "7976644154889503296716800",
+            "price": "79766441548895032967168000"
         },
         {
             "Name": "톱날검",
             "weaponNumber": 49,
             "weaponDISC": "쓱싹쓱싹~.",
-            "upgrade": 1,
-            "damage": "28715918957602211868180480",
-            "price": "287159189576022118681804800"
+            "upgrade": 0,
+            "damage": "23929932464668509890150400",
+            "price": "239299324646685098901504000"
         },
         {
             "Name": "포이즌 칼",
             "weaponNumber": 50,
             "weaponDISC": "베이지 않게 조심해야겠다.",
-            "upgrade": 1,
-            "damage": "86147759034534456742379520",
-            "price": "861477590345344567423795200"
+            "upgrade": 0,
+            "damage": "71789799195445380618649600",
+            "price": "717897991954453806186496000"
         },
         {
             "Name": "포이즌 가위 칼",
             "weaponNumber": 51,
             "weaponDISC": "가볍다.",
-            "upgrade": 1,
-            "damage": "258443277103603370227138560",
-            "price": "2584432771036033702271385600"
+            "upgrade": 0,
+            "damage": "215369397586336141855948800",
+            "price": "2153693975863361418559488000"
         },
         {
             "Name": "포이즌 스워드",
             "weaponNumber": 52,
             "weaponDISC": "꼬불꼬불.",
-            "upgrade": 1,
-            "damage": "775329796723164972476006400",
-            "price": "7753297967231649724760064000"
+            "upgrade": 0,
+            "damage": "646108163935970810396672000",
+            "price": "6461081639359708103966720000"
         },
         {
             "Name": "포이즌 슬라이스",
@@ -648,146 +652,352 @@
             "price": "608266770255988111026699885573308416000"
         }
     ],
+    "myStat": [
+        {
+            "Name": "힘",
+            "numStat": 0,
+            "upgrade": 4,
+            "price": "220"
+        },
+        {
+            "Name": "이동속도",
+            "numStat": 1,
+            "upgrade": 0,
+            "price": "100"
+        },
+        {
+            "Name": "약탈",
+            "numStat": 2,
+            "upgrade": 0,
+            "price": "100"
+        },
+        {
+            "Name": "자동공격",
+            "numStat": 3,
+            "upgrade": 0,
+            "price": "1000"
+        }
+    ],
     "Monster": [
         {
             "Name": "꼬마유령",
             "monsterNumber": 0,
             "monsterDISC": "귀엽다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "정정배해골",
-            "monsterNumber": 0,
+            "monsterNumber": 1,
             "monsterDISC": "피곤해보인다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "제형주해골",
-            "monsterNumber": 0,
+            "monsterNumber": 2,
             "monsterDISC": "몸빵이 정말 좋다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "우수안몬스터",
-            "monsterNumber": 0,
+            "monsterNumber": 3,
             "monsterDISC": "귀엽다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "좀도둑 제이스",
-            "monsterNumber": 0,
+            "monsterNumber": 4,
             "monsterDISC": "생긴것과는 상반되게 매우 민첩하다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "슬라임",
-            "monsterNumber": 0,
+            "monsterNumber": 5,
             "monsterDISC": "슬라임.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "슬라임 제이스",
-            "monsterNumber": 0,
+            "monsterNumber": 6,
             "monsterDISC": "슬라임이 제이스를 삼켰다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "미믹",
-            "monsterNumber": 0,
+            "monsterNumber": 7,
             "monsterDISC": "보물상자가 아니다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "데빌 카이저",
-            "monsterNumber": 0,
+            "monsterNumber": 8,
             "monsterDISC": "귀엽다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "누군가의 손",
-            "monsterNumber": 0,
+            "monsterNumber": 9,
             "monsterDISC": "윽 징그러워!",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "누군가의 발",
-            "monsterNumber": 0,
+            "monsterNumber": 10,
             "monsterDISC": "윽 징그러워!",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": true
         },
         {
             "Name": "포이즌 슬라임",
-            "monsterNumber": 0,
+            "monsterNumber": 11,
             "monsterDISC": "닿으면 녹아버린다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "눈눈눈",
-            "monsterNumber": 0,
+            "monsterNumber": 12,
             "monsterDISC": "눈이 세개나 된다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "외눈박이 이태영",
-            "monsterNumber": 0,
+            "monsterNumber": 13,
             "monsterDISC": "눈이 한개다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "외눈박이 이태영 2세",
-            "monsterNumber": 0,
+            "monsterNumber": 14,
             "monsterDISC": "귀엽다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "음쓰",
-            "monsterNumber": 0,
+            "monsterNumber": 15,
             "monsterDISC": "냄새가 난다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "김세현 방랑자",
-            "monsterNumber": 0,
+            "monsterNumber": 16,
             "monsterDISC": "망토 안에는 아무것도 없다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "눈사람",
-            "monsterNumber": 0,
+            "monsterNumber": 17,
             "monsterDISC": "아이스박스에서 왔다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "얼음정령",
-            "monsterNumber": 0,
+            "monsterNumber": 18,
             "monsterDISC": "귀엽다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
         },
         {
             "Name": "얼음게",
-            "monsterNumber": 0,
+            "monsterNumber": 19,
             "monsterDISC": "귀엽다.",
-            "hp": "4096000",
-            "gold": "819200"
+            "hp": "2000",
+            "gold": "400",
+            "met": false
+        },
+        {
+            "Name": "얼음나비",
+            "monsterNumber": 20,
+            "monsterDISC": "날지 못한다.",
+            "hp": "32000",
+            "gold": "7200",
+            "met": false
+        },
+        {
+            "Name": "납작좀비",
+            "monsterNumber": 21,
+            "monsterDISC": "납작해졌다.",
+            "hp": "28000",
+            "gold": "5600",
+            "met": false
+        },
+        {
+            "Name": "얼음골렘",
+            "monsterNumber": 22,
+            "monsterDISC": "착한 마음씨를 가지고있다.",
+            "hp": "34000",
+            "gold": "6800",
+            "met": false
+        },
+        {
+            "Name": "지옥 원숭이",
+            "monsterNumber": 23,
+            "monsterDISC": "난폭하다.",
+            "hp": "28000",
+            "gold": "5600",
+            "met": false
+        },
+        {
+            "Name": "\"어\"마법사의 수세자.",
+            "monsterNumber": 24,
+            "monsterDISC": "강력한 불을 내뿜는다.",
+            "hp": "22000",
+            "gold": "6000",
+            "met": false
+        },
+        {
+            "Name": "케르베로스 주니어",
+            "monsterNumber": 25,
+            "monsterDISC": "모든걸 찢어버린다.",
+            "hp": "36000",
+            "gold": "6600",
+            "met": false
+        },
+        {
+            "Name": "마법모자",
+            "monsterNumber": 26,
+            "monsterDISC": "귀엽다.",
+            "hp": "24000",
+            "gold": "4800",
+            "met": false
+        },
+        {
+            "Name": "지옥 뱃사공",
+            "monsterNumber": 27,
+            "monsterDISC": "정신을 차리고보면 배에 타있다.",
+            "hp": "24000",
+            "gold": "4800",
+            "met": false
+        },
+        {
+            "Name": "악마",
+            "monsterNumber": 28,
+            "monsterDISC": "도망가..악마야",
+            "hp": "48000",
+            "gold": "9600",
+            "met": false
+        },
+        {
+            "Name": "오크형주",
+            "monsterNumber": 29,
+            "monsterDISC": "귀엽다.",
+            "hp": "48000",
+            "gold": "9600",
+            "met": false
+        },
+        {
+            "Name": "오징징",
+            "monsterNumber": 30,
+            "monsterDISC": "뭐긴 뭐야 사랑의..ㄱ",
+            "hp": "24000",
+            "gold": "3800",
+            "met": false
+        },
+        {
+            "Name": "식충식물",
+            "monsterNumber": 31,
+            "monsterDISC": "입속에서 강력한 소화액을 분비한다.",
+            "hp": "30000",
+            "gold": "6000",
+            "met": false
+        },
+        {
+            "Name": "웨어울프",
+            "monsterNumber": 32,
+            "monsterDISC": "크아앙!!",
+            "hp": "38000",
+            "gold": "6000",
+            "met": false
+        },
+        {
+            "Name": "지옥의 레슬링 챔피온",
+            "monsterNumber": 33,
+            "monsterDISC": "버르장머리를 고쳐주지..",
+            "hp": "40000",
+            "gold": "8000",
+            "met": false
+        },
+        {
+            "Name": "머슷타드",
+            "monsterNumber": 34,
+            "monsterDISC": "창문너머로 자주 보인다.",
+            "hp": "28000",
+            "gold": "4800",
+            "met": false
+        },
+        {
+            "Name": "외눈박쥐",
+            "monsterNumber": 35,
+            "monsterDISC": "몸통박치기로 공격한다.",
+            "hp": "22000",
+            "gold": "5400",
+            "met": false
+        },
+        {
+            "Name": "바위골렘",
+            "monsterNumber": 36,
+            "monsterDISC": "쿵!!",
+            "hp": "40000",
+            "gold": "8000",
+            "met": false
+        },
+        {
+            "Name": "그냥 늑대",
+            "monsterNumber": 37,
+            "monsterDISC": "길들일수 있을것 같다.",
+            "hp": "26000",
+            "gold": "5200",
+            "met": false
+        },
+        {
+            "Name": "거미",
+            "monsterNumber": 38,
+            "monsterDISC": "으악! 징그러워!!",
+            "hp": "26000",
+            "gold": "5200",
+            "met": false
+        },
+        {
+            "Name": "죽은사람",
+            "monsterNumber": 39,
+            "monsterDISC": "어디서 죽었는지 알고싶어한다.",
+            "hp": "28000",
+            "gold": "5600",
+            "met": false
         }
     ]
 }

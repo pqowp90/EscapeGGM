@@ -8,4 +8,5 @@ public class Soldier
     public int upgrade;
     public string ePs;
     public string price;
+    public string damage;
 }

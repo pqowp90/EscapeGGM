@@ -18,7 +18,7 @@ public class GameManager : MonoSingleton<GameManager>
     public User CurrentUser {get{return user;}}
     private UIManager uiManager = null;
     public UIManager UI {get{return uiManager;}}
-    public bool isRun=false;
+    public bool isRun=true;
     public float backgroundSpeed;
     [SerializeField]
     private Animator playerAnimator;
@@ -27,11 +27,11 @@ public class GameManager : MonoSingleton<GameManager>
     private void Awake()
     {
         saveImage = GetComponent<SaveImage>();
-        SAVE_PATH = Application.dataPath+"/Save";//persistentDataPath
+        SAVE_PATH = Application.persistentDataPath+"/Save";//persistentDataPath
         if(!Directory.Exists(SAVE_PATH)){
             Directory.CreateDirectory(SAVE_PATH);
         }
-        InvokeRepeating("SaveToJson",1f,5f);
+        InvokeRepeating("SaveToJson",1f,60f);
         InvokeRepeating("EarnEnergyPerSecond",0f,1f);
         //SaveToJson();
         LoadFromJsom();
@@ -40,8 +40,10 @@ public class GameManager : MonoSingleton<GameManager>
         SetPlayerDamage();
         
     }
+    
+    
     public void SetPlayerDamage(){
-        playerDamage = BigInteger.Parse(user.Weapon[user.weaponSet].damage)+10;
+        playerDamage = (BigInteger.Parse(user.Weapon[user.weaponSet].damage)+(BigInteger.Parse(user.Weapon[user.weaponSet].damage)/100*(user.myStat[0].upgrade*3)));
     }
     public void Move(bool isMove){
         isRun = isMove;

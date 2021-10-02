@@ -31,7 +31,9 @@ public class WeaponPanel : MonoBehaviour
     [SerializeField]
     private SaveImage saveImage;
     private Explanation explanation;
+    private AudioSource audioSource;
     private void Awake(){
+        audioSource = GetComponent<AudioSource>();
         explanation = FindObjectOfType<Explanation>();
         saveImage = FindObjectOfType<SaveImage>();
         InvokeRepeating("CanUpgrade",0f,1f);
@@ -63,6 +65,7 @@ public class WeaponPanel : MonoBehaviour
         GameManager.Instance.SetPlayerDamage();
     }
     public void OnclickPurchase(){
+        audioSource.Play();
         if(GameManager.Instance.money < BigInteger.Parse(weapon.price)){
             return;
         }

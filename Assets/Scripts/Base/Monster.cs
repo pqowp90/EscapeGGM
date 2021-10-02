@@ -10,5 +10,6 @@ public class Monster
     public string monsterDISC;
     public string hp;
     public string gold;
+    public bool met;
 }
 
