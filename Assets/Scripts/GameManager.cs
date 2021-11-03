@@ -27,7 +27,7 @@ public class GameManager : MonoSingleton<GameManager>
     private void Awake()
     {
         saveImage = GetComponent<SaveImage>();
-        SAVE_PATH = Application.persistentDataPath+"/Save";//persistentDataPath
+        SAVE_PATH = Application.dataPath+"/Save";//persistentDataPath
         if(!Directory.Exists(SAVE_PATH)){
             Directory.CreateDirectory(SAVE_PATH);
         }
