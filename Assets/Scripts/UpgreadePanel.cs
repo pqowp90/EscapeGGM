@@ -80,6 +80,11 @@ public class UpgreadePanel : MonoBehaviour
         yield return new WaitForSeconds(5f);
         student.GetChild(num).gameObject.SetActive(false);
     }
+    private void OnDisable(){
+        for(int i=0;i<4;i++){
+            student.GetChild(i).gameObject.SetActive(false);
+        }   
+    }
     public void ShowExplanation(){
         if(soldier.upgrade>0)
             StartCoroutine(Hihello(soldier.soldierNumber));
